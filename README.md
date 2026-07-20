@@ -2,6 +2,8 @@
 
 An interactive, cinematic birthday website for **Wasiatus Sadiyah's 35th birthday**, created with love by **Nahuel** and celebrating their family story with **Rayden**.
 
+Live public site: [nahuel149.github.io/wasiatus-birthday-journey](https://nahuel149.github.io/wasiatus-birthday-journey/)
+
 The site is intended to feel like a handcrafted luxury digital gift—not a conventional photo gallery. It will guide Wasiatus through memories, letters, music, photographs, videos, playful discoveries, and a final birthday surprise. It must remain easy to expand for future birthdays, anniversaries, trips, and family milestones.
 
 ## Project principles

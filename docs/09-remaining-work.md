@@ -43,7 +43,7 @@ This is the finish-line checklist after the working MVP, media pipelines, shared
 - [ ] Test slow and failed playback with the final video/audio files
 - [ ] Test at least one real phone, orientation changes, and touch zoom/swipe
 - [x] Confirm the privacy/sharing strategy: public, unlisted GitHub Pages link is acceptable
-- [ ] Deploy from the intended repository after the privacy decision
+- [x] Deploy the placeholder-content release from the standalone public repository
 - [ ] Optionally add offline/PWA caching after content is stable
 
 ## Nice-to-have polish
