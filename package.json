@@ -1,0 +1,46 @@
+{
+  "name": "wasiatus-birthday-journey",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate && tsc -b && vite build",
+    "validate": "node scripts/validate-content.mjs",
+    "media:optimize": "node scripts/optimize-media.mjs",
+    "video:optimize": "node scripts/optimize-videos.mjs",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "perf:budget": "node scripts/check-performance-budget.mjs",
+    "pages:path": "node scripts/check-pages-path.mjs",
+    "verify": "npm test && npm run build && npm run perf:budget"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.12.1",
+    "@playwright/test": "^1.61.1",
+    "@tailwindcss/vite": "^4.1.17",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "jsdom": "^29.1.1",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.1.17",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vitest": "^3.2.4"
+  }
+}

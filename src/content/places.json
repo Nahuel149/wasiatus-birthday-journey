@@ -1,0 +1,29 @@
+[
+  {
+    "id": "our-beginning",
+    "name": "Where it began",
+    "country": "Add the real place",
+    "note": "The first pin belongs to the place where one conversation changed everything.",
+    "x": 27,
+    "y": 49,
+    "memoryIds": ["our-first-hello", "the-days-between"]
+  },
+  {
+    "id": "japan",
+    "name": "Our home in Japan",
+    "country": "Japan",
+    "note": "New seasons, unfamiliar streets, and the family life we built together.",
+    "x": 86,
+    "y": 43,
+    "memoryIds": ["our-japan-chapter", "tomorrows-together"]
+  },
+  {
+    "id": "family-center",
+    "name": "The center of our world",
+    "country": "Where Rayden joined our story",
+    "note": "Replace this illustrative pin with the safe location label you want Wasiatus to see.",
+    "x": 58,
+    "y": 61,
+    "memoryIds": ["hello-rayden"]
+  }
+]

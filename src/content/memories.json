@@ -1,0 +1,116 @@
+[
+  {
+    "id": "our-first-hello",
+    "chapterId": "how-we-met",
+    "eyebrow": "Chapter one",
+    "title": "The first hello",
+    "date": "Our beginning",
+    "location": "Where our story began",
+    "people": ["Wasiatus", "Nahuel"],
+    "category": "Our story",
+    "tags": ["firsts", "love", "beginning"],
+    "summary": "One conversation became another, and somehow the world had started to feel different.",
+    "story": [
+      "This space is waiting for Nahuel's real memory of the first conversation—the words, the setting, and the tiny detail that Wasiatus will recognize immediately.",
+      "The finished story should sound like Nahuel speaking directly to her, not like a formal biography."
+    ],
+    "mood": "dawn",
+    "favorite": true,
+    "quote": "Some beginnings are quiet. Their echoes last forever."
+  },
+  {
+    "id": "the-days-between",
+    "chapterId": "falling-in-love",
+    "eyebrow": "Chapter two",
+    "title": "All the days between",
+    "date": "The early years",
+    "location": "Everywhere we were together",
+    "people": ["Wasiatus", "Nahuel"],
+    "category": "Everyday love",
+    "tags": ["laughter", "dates", "little moments"],
+    "summary": "The jokes no one else understood. The conversations that lasted too long. The first collection of our favorite ordinary days.",
+    "story": [
+      "Add two or three true moments here: a first date detail, a ridiculous shared joke, or the day Nahuel realized this was becoming something permanent.",
+      "Small specificity will make this chapter more emotional than any generic romantic phrase."
+    ],
+    "mood": "blush",
+    "favorite": false,
+    "quote": "You made ordinary feel like something worth remembering."
+  },
+  {
+    "id": "our-promise",
+    "chapterId": "choosing-each-other",
+    "eyebrow": "Chapter three",
+    "title": "The promise we keep",
+    "date": "Our wedding chapter",
+    "location": "Together",
+    "people": ["Wasiatus", "Nahuel"],
+    "category": "Milestones",
+    "tags": ["wedding", "promise", "partnership"],
+    "summary": "Not only one beautiful day, but every choice that followed it.",
+    "story": [
+      "Replace this placeholder with the wedding memory Wasiatus would choose first: what Nahuel saw, felt, or almost forgot to say.",
+      "Then connect that day to the quieter promise of choosing each other in daily life."
+    ],
+    "mood": "gold",
+    "favorite": false,
+    "quote": "I chose you then. I choose you still."
+  },
+  {
+    "id": "hello-rayden",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Chapter four",
+    "title": "Hello, Rayden",
+    "date": "The day we became three",
+    "location": "The center of our world",
+    "people": ["Wasiatus", "Nahuel", "Rayden"],
+    "category": "Family",
+    "tags": ["Rayden", "family", "parenthood"],
+    "summary": "Our love grew hands to hold, a laugh to recognize, and a whole new future to imagine.",
+    "story": [
+      "Tell the real story of pregnancy and Rayden's birth here, centered on what Nahuel admired in Wasiatus and how it felt to meet Rayden.",
+      "This chapter can include a message to Wasiatus as a mother and a small moment that captures the family's everyday joy."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "The two of us became a family, and love learned a new language."
+  },
+  {
+    "id": "our-japan-chapter",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Chapter five",
+    "title": "A new map of home",
+    "date": "Our Japan chapter",
+    "location": "Japan",
+    "people": ["Wasiatus", "Nahuel", "Rayden"],
+    "category": "Adventures",
+    "tags": ["Japan", "moving", "travel", "family"],
+    "summary": "New streets, new seasons, and the same three people learning how to call another place home.",
+    "story": [
+      "Add the real details of moving to Japan: the courage it took, the surprises, the difficult parts, and the family moments now impossible to imagine living without.",
+      "Photos from different seasons can turn this into a visual passage through the life you built together."
+    ],
+    "mood": "wine",
+    "favorite": false,
+    "quote": "Home was never only a place. It was us."
+  },
+  {
+    "id": "tomorrows-together",
+    "chapterId": "future-dreams",
+    "eyebrow": "Chapter six",
+    "title": "All our tomorrows",
+    "date": "From today onward",
+    "location": "Wherever we go next",
+    "people": ["Wasiatus", "Nahuel", "Rayden"],
+    "category": "Future dreams",
+    "tags": ["future", "dreams", "birthday"],
+    "summary": "More birthdays, more adventures, more laughter from the next room—and more reasons to choose one another.",
+    "story": [
+      "Write three specific dreams here: one simple, one adventurous, and one about the kind of family life Nahuel hopes to keep building with Wasiatus.",
+      "End in the present—with gratitude for who she is at thirty-five, not only for the memories already made."
+    ],
+    "mood": "night",
+    "favorite": false,
+    "quote": "The best thing about the future is finding you in it."
+  }
+]

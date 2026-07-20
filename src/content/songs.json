@@ -1,0 +1,26 @@
+[
+  {
+    "id": "song-our-beginning",
+    "order": 1,
+    "title": "The song from our beginning",
+    "artist": "Add the artist",
+    "story": "Replace this prompt with the song connected to your earliest days together and the moment it takes you back to.",
+    "memoryId": "our-first-hello"
+  },
+  {
+    "id": "song-our-promise",
+    "order": 2,
+    "title": "The song that sounds like us",
+    "artist": "Add the artist",
+    "story": "Choose the song that carries a wedding, promise, trip, or ordinary ritual only the two of you fully understand.",
+    "memoryId": "our-promise"
+  },
+  {
+    "id": "song-our-family",
+    "order": 3,
+    "title": "The song for our family",
+    "artist": "Add the artist",
+    "story": "Add the track that belongs to life with Rayden, then explain the specific family scene you see whenever it plays.",
+    "memoryId": "hello-rayden"
+  }
+]

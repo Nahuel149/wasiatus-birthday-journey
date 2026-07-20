@@ -1,0 +1,56 @@
+[
+  {
+    "id": "how-we-met",
+    "number": 1,
+    "title": "Where it began",
+    "kicker": "Before there was an us",
+    "introduction": "Every great love story has a first small moment—the one that looks ordinary until it changes everything.",
+    "memoryId": "our-first-hello",
+    "mood": "dawn"
+  },
+  {
+    "id": "falling-in-love",
+    "number": 2,
+    "title": "The little moments",
+    "kicker": "When ordinary days became favorites",
+    "introduction": "It wasn't one grand gesture. It was laughter, long conversations, familiar glances, and the feeling that home could be a person.",
+    "memoryId": "the-days-between",
+    "mood": "blush"
+  },
+  {
+    "id": "choosing-each-other",
+    "number": 3,
+    "title": "I choose you",
+    "kicker": "A promise made together",
+    "introduction": "Love became a decision we kept making—on the easy days, the difficult days, and every quiet day in between.",
+    "memoryId": "our-promise",
+    "mood": "gold"
+  },
+  {
+    "id": "becoming-a-family",
+    "number": 4,
+    "title": "And then there were three",
+    "kicker": "Our love grew a new name",
+    "introduction": "Rayden made our world bigger, louder, funnier, and more beautiful than we knew it could be.",
+    "memoryId": "hello-rayden",
+    "mood": "sage"
+  },
+  {
+    "id": "life-in-japan",
+    "number": 5,
+    "title": "The life we built",
+    "kicker": "New places, the same hand to hold",
+    "introduction": "Across every move and every unfamiliar street, we carried the most important thing with us: each other.",
+    "memoryId": "our-japan-chapter",
+    "mood": "wine"
+  },
+  {
+    "id": "future-dreams",
+    "number": 6,
+    "title": "Still to come",
+    "kicker": "The best pages are unwritten",
+    "introduction": "Thirty-five is not an ending. It is another beautiful beginning, with more places to see and more ordinary days to treasure.",
+    "memoryId": "tomorrows-together",
+    "mood": "night"
+  }
+]
