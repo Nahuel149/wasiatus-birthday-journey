@@ -83,7 +83,7 @@ h1, h2, h3 { text-wrap: balance; }
   text-transform: uppercase;
 }
 
-.site-shell { min-height: 100vh; overflow: clip; }
+.site-shell { position: relative; min-height: 100vh; overflow: clip; }
 
 /* Ambient atmosphere */
 .ambient { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
@@ -91,6 +91,58 @@ h1, h2, h3 { text-wrap: balance; }
 .ambient__orb--one { width: 44vw; height: 44vw; left: -17vw; top: -16vw; background: rgba(245, 211, 216, .6); }
 .ambient__orb--two { width: 48vw; height: 48vw; right: -20vw; bottom: -22vw; background: rgba(216, 191, 136, .35); }
 .ambient__mote { position: absolute; border-radius: 50%; background: var(--gold); box-shadow: 0 0 14px rgba(184, 149, 80, .5); }
+
+/* Quiet notes that follow the journey */
+.floating-love-note {
+  position: absolute;
+  top: 98px;
+  right: 22px;
+  z-index: 45;
+  width: min(245px, calc(100vw - 40px));
+  padding: 18px 20px 17px;
+  pointer-events: none;
+  border: 1px solid rgba(184, 149, 80, .36);
+  background: rgba(255, 250, 242, .9);
+  box-shadow: 0 18px 45px rgba(63, 38, 34, .12);
+  backdrop-filter: blur(15px);
+  transform: rotate(-.7deg);
+}
+.floating-love-note::before {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border: 1px solid rgba(169, 87, 103, .08);
+}
+.floating-love-note__pin {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--gold-light);
+  box-shadow: 0 3px 8px rgba(87, 42, 52, .25);
+  transform: translateX(-50%);
+}
+.floating-love-note > div { position: relative; }
+.floating-love-note small {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--wine);
+  font-size: .52rem;
+  font-weight: 700;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+}
+.floating-love-note p {
+  margin: 0;
+  color: var(--wine);
+  font-family: var(--serif);
+  font-size: .94rem;
+  font-style: italic;
+  line-height: 1.45;
+}
+.floating-love-note--landing { right: 5vw; top: 18%; }
 
 /* Header and footer */
 .site-header {
@@ -419,13 +471,13 @@ h1, h2, h3 { text-wrap: balance; }
 .letter-paper--floral::after { content: "❦"; position: absolute; right: 36px; bottom: 26px; color: var(--letter-detail); font-size: 3.4rem; line-height: 1; opacity: .42; transform: rotate(-12deg); }
 .letter-paper--minimal::before { display: none; }
 .letter-paper--minimal .letter-paper__heart { display: none; }
-.letter-paper__number { position: absolute; top: 24px; right: 36px; color: color-mix(in srgb, var(--letter-accent) 8%, transparent); font-size: 9rem; line-height: 1; }
+.letter-paper__number { position: absolute; top: 24px; right: 28px; width: 176px; height: 145px; background: center / contain no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 176 145'%3E%3Ctext x='88' y='119' text-anchor='middle' font-family='Georgia,serif' font-size='136' fill='%23572a34' fill-opacity='.08'%3E35%3C/text%3E%3C/svg%3E"); }
 .letter-paper__heart { position: absolute; top: 42px; left: 50%; color: var(--letter-accent); transform: translateX(-50%); }
 .letter-salutation { color: var(--letter-accent); font-size: 1.45rem; font-style: italic; }
 .letter-placeholder { padding: 22px 26px; border-left: 2px solid var(--letter-detail); background: var(--letter-panel); color: color-mix(in srgb, var(--letter-ink) 72%, white); font-size: 1rem; }
 .letter-closing { margin: 46px 0 0; }
 .letter-signature { margin: -8px 0 -4px; color: var(--letter-accent); font-size: 3rem; font-style: italic; line-height: 1; }
-.letter-paper small { color: color-mix(in srgb, var(--letter-ink) 72%, white); font-family: var(--sans); font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; }
+.letter-paper small { color: color-mix(in srgb, var(--letter-ink) 82%, white); font-family: var(--sans); font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; }
 
 /* Reasons */
 .reasons-page { min-height: 100vh; padding: 0 5vw 120px; background: linear-gradient(180deg, var(--ivory), #f9eee9); }
@@ -567,11 +619,17 @@ h1, h2, h3 { text-wrap: balance; }
 .song-card__art { position: relative; }
 .song-card__art .memory-visual { min-height: 150px; height: 150px; border-radius: 50%; box-shadow: 0 15px 35px rgba(70,42,37,.12); }
 .song-card__art .memory-visual__label { display: none; }
+.song-card__record { position: relative; display: grid; place-items: center; width: 150px; height: 150px; border: 1px solid rgba(216,191,136,.35); border-radius: 50%; background: repeating-radial-gradient(circle, #2d1a20 0 5px, #382129 6px 8px); color: var(--gold-light); box-shadow: 0 15px 35px rgba(70,42,37,.16); }
+.song-card__record::before { content: ""; position: absolute; width: 48px; height: 48px; border: 12px solid #f0d3d7; border-radius: 50%; background: var(--ivory); box-shadow: 0 0 0 1px rgba(216,191,136,.35); }
+.song-card__record svg { position: relative; z-index: 1; width: 14px; color: var(--wine); }
 .song-card__art > span { position: absolute; right: -5px; bottom: 2px; display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid var(--gold-light); border-radius: 50%; background: var(--ivory); color: var(--wine); font-family: var(--serif); font-size: .7rem; }
 .song-card__copy h2 { margin: 7px 0 12px; color: var(--wine); font-family: var(--serif); font-size: clamp(1.8rem, 3.6vw, 3.3rem); font-weight: 400; letter-spacing: -.035em; line-height: 1; }
 .song-card__copy > p:last-child { margin: 0; color: var(--muted); font-family: var(--serif); line-height: 1.65; }
 .song-card__action { display: grid; place-items: center; }
-.song-card__action > button, .song-card__action > a { display: grid; place-items: center; width: 58px; height: 58px; border: 1px solid var(--gold); border-radius: 50%; background: var(--wine); color: var(--gold-light); cursor: pointer; }
+.song-card__action > button, .song-card__action > a { display: grid; place-items: center; width: 64px; height: 64px; border: 1px solid var(--gold); border-radius: 50%; background: var(--wine); color: var(--gold-light); cursor: pointer; transition: transform .2s ease, box-shadow .2s ease, background .2s ease; }
+.song-card__action > button:hover, .song-card__action > a:hover { background: var(--wine-deep); box-shadow: 0 12px 28px rgba(87,42,52,.18); transform: translateY(-2px); }
+.song-card__action > a { align-content: center; gap: 2px; }
+.song-card__action > a small { color: var(--ivory); font-size: .46rem; }
 .song-card__action > span { display: flex; flex-direction: column; align-items: center; gap: 6px; color: #a99b94; text-align: center; }
 .song-card__action small { font-size: .52rem; letter-spacing: .08em; line-height: 1.4; text-transform: uppercase; }
 .music-note { display: flex; align-items: center; justify-content: center; gap: 12px; max-width: 800px; margin: 60px auto 0; padding: 20px 25px; border-top: 1px solid var(--gold-light); border-bottom: 1px solid var(--gold-light); color: var(--rose); }
@@ -667,6 +725,7 @@ h1, h2, h3 { text-wrap: balance; }
 }
 
 @media (max-width: 620px) {
+  .site-shell--inner #main-content { padding-top: 72px; }
   .landing { padding: 85px 26px 100px; }
   .landing__monogram { top: 36px; }
   .landing__dedication { grid-template-columns: 25px auto 25px; gap: 10px; }
@@ -714,6 +773,7 @@ h1, h2, h3 { text-wrap: balance; }
   .letter-print-button { width: 100%; }
   .letter-preview-label { text-align: center; }
   .letter-paper { padding: 65px 38px; }
+  .letter-paper__number { display: none; }
   .letter-placeholder { padding: 17px; }
   .reason-stage { height: 470px; }
   .reason-progress { grid-template-columns: 1fr auto; }
@@ -727,9 +787,14 @@ h1, h2, h3 { text-wrap: balance; }
   .keepsake-summary > div:not(:first-child) { padding-right: 12px; }
   .achievements-grid { grid-template-columns: 1fr; }
   .audio-dock { right: 10px; bottom: 10px; left: 10px; grid-template-columns: 42px minmax(0,1fr) 30px; }
+  .floating-love-note { top: 82px; right: 12px; left: 12px; width: auto; padding: 11px 15px 10px; opacity: .94; }
+  .floating-love-note--landing { top: auto; right: 22px; bottom: 82px; left: auto; width: min(205px, calc(100vw - 44px)); }
+  .floating-love-note small { margin-bottom: 3px; }
+  .floating-love-note p { font-size: .84rem; }
   .audio-dock label { display: none; }
   .song-card { grid-template-columns: 90px 1fr; gap: 20px; }
-  .song-card__art .memory-visual { min-height: 85px; height: 85px; }
+  .song-card__art .memory-visual, .song-card__record { min-height: 85px; width: 85px; height: 85px; }
+  .song-card__record::before { width: 34px; height: 34px; border-width: 8px; }
   .song-card__action { grid-column: 1 / -1; justify-items: start; }
   .song-card__action > button, .song-card__action > a { width: 48px; height: 48px; }
   .video-page, .music-page { padding-right: 20px; padding-left: 20px; }
@@ -759,7 +824,7 @@ h1, h2, h3 { text-wrap: balance; }
 
 @media print {
   html, body { min-width: 0; background: white !important; }
-  body::before, .skip-link, .site-header, .site-footer, .audio-dock, .letter-page .page-intro, .letter-customizer, .letter-preview-label { display: none !important; }
+  body::before, .skip-link, .site-header, .site-footer, .audio-dock, .floating-love-note, .letter-page .page-intro, .letter-customizer, .letter-preview-label { display: none !important; }
   .site-shell, #main-content, .letter-page { min-height: 0; overflow: visible; padding: 0; background: transparent !important; }
   .letter-paper {
     width: 100%;
@@ -779,7 +844,7 @@ h1, h2, h3 { text-wrap: balance; }
   }
   .letter-paper::before { inset: 5mm; }
   .letter-paper p { break-inside: avoid; }
-  .letter-paper__number { top: 8mm; right: 10mm; font-size: 74pt; }
+  .letter-paper__number { display: block; top: 8mm; right: 8mm; width: 38mm; height: 31mm; }
   .letter-paper__heart { top: 11mm; }
   .letter-paper--floral::after { right: 10mm; bottom: 8mm; }
   .letter-placeholder { padding: 5mm; }

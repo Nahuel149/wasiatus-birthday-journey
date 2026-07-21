@@ -109,7 +109,7 @@ export function LetterPage() {
         animate={{ opacity: 1, y: 0, rotate: 0 }}
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
       >
-        <span className="letter-paper__number" aria-hidden="true">35</span>
+        <span className="letter-paper__number" aria-hidden="true" />
         <Heart className="letter-paper__heart" size={18} fill="currentColor" aria-hidden="true" />
         <p className="letter-salutation">{letter.salutation}</p>
 

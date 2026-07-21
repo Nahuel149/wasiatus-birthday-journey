@@ -1,4 +1,4 @@
-import { ExternalLink, Music2, Pause, Play, VolumeX } from "lucide-react";
+import { Music2, Pause, Play, VolumeX, Youtube } from "lucide-react";
 import { motion } from "framer-motion";
 import { useAudio } from "../audio";
 import { MemoryVisual } from "../components/MemoryVisual";
@@ -13,7 +13,7 @@ export function MusicPage() {
     <div className="music-page">
       <header className="page-intro page-intro--split">
         <div><p className="eyebrow">The songs behind the photographs</p><h1>Our soundtrack</h1></div>
-        <p>Music is optional and silent by default. When a licensed local track is added, it continues softly while you explore.</p>
+        <p>Seven musical clues from our conversation, gathered in one place. Each one opens on YouTube only when you choose it.</p>
       </header>
 
       <div className="song-list">
@@ -30,7 +30,13 @@ export function MusicPage() {
               transition={{ delay: index * .08 }}
             >
               <div className="song-card__art">
-                {memory ? <MemoryVisual mood={memory.mood} label={memory.title} compact media={getMediaForMemory(memory.id)} /> : <Music2 size={30} />}
+                {memory ? (
+                  <MemoryVisual mood={memory.mood} label={memory.title} compact media={getMediaForMemory(memory.id)} />
+                ) : (
+                  <div className="song-card__record" aria-hidden="true">
+                    <Music2 size={23} />
+                  </div>
+                )}
                 <span>{String(song.order).padStart(2, "0")}</span>
               </div>
               <div className="song-card__copy">
@@ -47,7 +53,10 @@ export function MusicPage() {
                     {active && playing ? <Pause size={19} fill="currentColor" /> : <Play size={19} fill="currentColor" />}
                   </button>
                 ) : song.externalUrl ? (
-                  <a href={song.externalUrl} target="_blank" rel="noreferrer" aria-label={`Open ${song.title} externally`}><ExternalLink size={18} /></a>
+                  <a href={song.externalUrl} target="_blank" rel="noreferrer" aria-label={`Watch ${song.title} on YouTube`}>
+                    <Youtube size={20} />
+                    <small>Watch</small>
+                  </a>
                 ) : (
                   <span title="Add a local audio file or external URL in songs.json"><VolumeX size={18} /><small>Story ready<br />audio pending</small></span>
                 )}
@@ -57,7 +66,7 @@ export function MusicPage() {
         })}
       </div>
 
-      <aside className="music-note"><Music2 size={19} /><p><strong>To make a song playable:</strong> place a legally usable file in <code>public/media/audio</code>, then add its path as <code>audioPath</code> in <code>songs.json</code>.</p></aside>
+      <aside className="music-note"><Youtube size={20} /><p><strong>Seven musical clues, one place:</strong> each selection opens its official or most relevant YouTube video in a new tab. The website itself stays silent until you choose.</p></aside>
     </div>
   );
 }

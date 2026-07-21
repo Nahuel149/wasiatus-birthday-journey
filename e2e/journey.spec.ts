@@ -72,3 +72,25 @@ test("printable letter choices produce a clean print view", async ({ page }) => 
   await expect(page.locator(".letter-customizer")).toBeHidden();
   await expect(page.locator(".letter-paper")).toBeVisible();
 });
+
+test("soundtrack links and floating notes stay usable without covering the journey", async ({ page }) => {
+  await page.goto("/#/music");
+
+  const youtubeLinks = page.getByRole("link", { name: /on YouTube/i });
+  await expect(youtubeLinks).toHaveCount(7);
+  await expect(page.getByLabel("A small love note")).toBeVisible();
+
+  for (const link of await youtubeLinks.all()) {
+    await expect(link).toHaveAttribute("href", /^https:\/\/www\.youtube\.com\/watch\?v=/);
+  }
+
+  const lastSong = page.locator(".song-card").last();
+  await lastSong.scrollIntoViewIfNeeded();
+  await expect(lastSong).toBeVisible();
+
+  const noteBox = await page.getByLabel("A small love note").boundingBox();
+  expect(noteBox?.y ?? 0).toBeLessThan(0);
+
+  const hasHorizontalOverflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
+  expect(hasHorizontalOverflow).toBe(false);
+});

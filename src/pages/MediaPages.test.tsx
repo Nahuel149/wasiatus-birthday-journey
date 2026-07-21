@@ -5,11 +5,13 @@ import { MusicPage } from "./MusicPage";
 import { VideoGalleryPage } from "./VideoGalleryPage";
 
 describe("media empty states", () => {
-  it("keeps song stories visible while audio is pending", () => {
+  it("shows the seven chat-derived YouTube selections", () => {
     render(<MusicPage />, { wrapper: AppTestProviders });
 
     expect(screen.getByRole("heading", { name: "Our soundtrack" })).toBeInTheDocument();
-    expect(screen.getAllByText(/audio pending/i)).toHaveLength(3);
+    expect(screen.getAllByRole("link", { name: /on YouTube/i })).toHaveLength(7);
+    expect(screen.getByRole("heading", { name: "Suki Dakara" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Boom!" })).toBeInTheDocument();
   });
 
   it("explains how to add the first family film", () => {

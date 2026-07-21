@@ -1,26 +1,58 @@
 [
   {
-    "id": "song-our-beginning",
+    "id": "song-my-chemical-romance",
     "order": 1,
-    "title": "The song from our beginning",
-    "artist": "Add the artist",
-    "story": "Replace this prompt with the song connected to your earliest days together and the moment it takes you back to.",
-    "memoryId": "our-first-hello"
+    "title": "Welcome to the Black Parade",
+    "artist": "My Chemical Romance",
+    "story": "One of the three bands you named without hesitation. This official video is a doorway back into the dramatic, emotional music you love.",
+    "externalUrl": "https://www.youtube.com/watch?v=RRKJiM9Njr8"
   },
   {
-    "id": "song-our-promise",
+    "id": "song-sum-41",
     "order": 2,
-    "title": "The song that sounds like us",
-    "artist": "Add the artist",
-    "story": "Choose the song that carries a wedding, promise, trip, or ordinary ritual only the two of you fully understand.",
-    "memoryId": "our-promise"
+    "title": "In Too Deep",
+    "artist": "Sum 41",
+    "story": "A bright, unforgettable piece of the pop-punk era—and a song already named inside our conversation about the music that stayed with us.",
+    "externalUrl": "https://www.youtube.com/watch?v=emGri7i8Y2Y"
   },
   {
-    "id": "song-our-family",
+    "id": "song-simple-plan",
     "order": 3,
-    "title": "The song for our family",
-    "artist": "Add the artist",
-    "story": "Add the track that belongs to life with Rayden, then explain the specific family scene you see whenever it plays.",
-    "memoryId": "hello-rayden"
+    "title": "Welcome to My Life",
+    "artist": "Simple Plan",
+    "story": "You described Simple Plan as easy listening. This official video is one of the clearest snapshots of the sound you were talking about.",
+    "externalUrl": "https://www.youtube.com/watch?v=r0U0AlLVqpk"
+  },
+  {
+    "id": "song-pop-punk-emo",
+    "order": 4,
+    "title": "Dear Maria, Count Me In",
+    "artist": "All Time Low · pop-punk / emo pick",
+    "story": "A representative song for the pop-punk and emo thread in the chat. All Time Low was another band you brought into that conversation.",
+    "externalUrl": "https://www.youtube.com/watch?v=GcNiKCmWdYE"
+  },
+  {
+    "id": "song-punkspring",
+    "order": 5,
+    "title": "A Punkspring Memory",
+    "artist": "PUNKSPRING · Sum 41",
+    "story": "Not a song, but a small official festival keepsake: Sum 41's message to Punkspring, connecting a favorite band with the event you waited to see.",
+    "externalUrl": "https://www.youtube.com/watch?v=cGNQHMkgsdU"
+  },
+  {
+    "id": "song-suki-dakara",
+    "order": 6,
+    "title": "Suki Dakara",
+    "artist": "Yuika",
+    "story": "The sweet song you sang and shared. Its simple confession belongs naturally beside the gentler memories in this journey.",
+    "externalUrl": "https://www.youtube.com/watch?v=eYAd4uDotF0"
+  },
+  {
+    "id": "song-boom",
+    "order": 7,
+    "title": "Boom!",
+    "artist": "Simple Plan",
+    "story": "The Spotify link from our chat leads here: an energetic Simple Plan love song, now saved as its official YouTube video.",
+    "externalUrl": "https://www.youtube.com/watch?v=UpRxhcCAeVU"
   }
 ]

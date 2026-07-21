@@ -4,6 +4,7 @@ import { type ReactNode, useEffect, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { useProgress } from "../progress";
 import { GlobalAudioDock, useAudio } from "../audio";
+import { FloatingLoveNotes } from "./FloatingLoveNotes";
 
 const links = [
   ["/journey", "Journey"],
@@ -34,7 +35,7 @@ export function Shell({ children }: { children: ReactNode }) {
   const isLanding = location.pathname === "/";
 
   return (
-    <div className="site-shell">
+    <div className={`site-shell ${isLanding ? "site-shell--landing" : "site-shell--inner"}`}>
       <button className="skip-link" onClick={() => document.getElementById("main-content")?.focus()}>
         Skip to Main Content
       </button>
@@ -101,6 +102,8 @@ export function Shell({ children }: { children: ReactNode }) {
       )}
 
       <main id="main-content" tabIndex={-1}>{children}</main>
+
+      <FloatingLoveNotes pathname={location.pathname} landing={isLanding} />
 
       {!isLanding && (
         <footer className="site-footer">

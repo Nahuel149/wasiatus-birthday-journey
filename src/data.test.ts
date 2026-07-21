@@ -12,7 +12,7 @@ describe("content selectors", () => {
   });
 
   it("keeps songs ordered and connected to known memories", () => {
-    expect(songs.map((song) => song.order)).toEqual([1, 2, 3]);
+    expect(songs.map((song) => song.order)).toEqual([1, 2, 3, 4, 5, 6, 7]);
     expect(songs.every((song) => !song.memoryId || getMemory(song.memoryId))).toBe(true);
   });
 
