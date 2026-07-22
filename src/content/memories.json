@@ -1,116 +1,1784 @@
 [
   {
+    "id": "our-beginnings-p0759",
+    "chapterId": "how-we-met",
+    "eyebrow": "Our story",
+    "title": "Where our story began",
+    "date": "2022-08-21",
+    "location": "Wherever we were together",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Our story",
+    "tags": [
+      "our beginnings",
+      "gallery"
+    ],
+    "summary": "Before all the chapters that followed, there was the simple happiness of being side by side.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "dawn",
+    "favorite": false,
+    "quote": "The beginning was beautiful because it led me to you."
+  },
+  {
+    "id": "our-beginnings-p0760",
+    "chapterId": "how-we-met",
+    "eyebrow": "Our story",
+    "title": "An early favorite",
+    "date": "2022-08-21",
+    "location": "Wherever we were together",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Our story",
+    "tags": [
+      "our beginnings",
+      "gallery"
+    ],
+    "summary": "Before all the chapters that followed, there was the simple happiness of being side by side.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "dawn",
+    "favorite": false,
+    "quote": "The beginning was beautiful because it led me to you."
+  },
+  {
     "id": "our-first-hello",
     "chapterId": "how-we-met",
-    "eyebrow": "Chapter one",
-    "title": "The first hello",
-    "date": "Our beginning",
-    "location": "Where our story began",
-    "people": ["Wasiatus", "Nahuel"],
+    "eyebrow": "Our story",
+    "title": "Where our story began",
+    "date": "2022-08-28",
+    "location": "Wherever we were together",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
     "category": "Our story",
-    "tags": ["firsts", "love", "beginning"],
-    "summary": "One conversation became another, and somehow the world had started to feel different.",
+    "tags": [
+      "our beginnings",
+      "core"
+    ],
+    "summary": "Before all the chapters that followed, there was the simple happiness of being side by side.",
     "story": [
-      "This space is waiting for Nahuel's real memory of the first conversation—the words, the setting, and the tiny detail that Wasiatus will recognize immediately.",
-      "The finished story should sound like Nahuel speaking directly to her, not like a formal biography."
+      "These early photographs hold the beginning without needing to explain everything. I see two people still discovering how much their lives were about to change."
     ],
     "mood": "dawn",
     "favorite": true,
-    "quote": "Some beginnings are quiet. Their echoes last forever."
+    "quote": "The beginning was beautiful because it led me to you."
+  },
+  {
+    "id": "our-beginnings-p0009",
+    "chapterId": "how-we-met",
+    "eyebrow": "Our story",
+    "title": "An early favorite",
+    "date": "2022-09-04",
+    "location": "Wherever we were together",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Our story",
+    "tags": [
+      "our beginnings",
+      "core"
+    ],
+    "summary": "Before all the chapters that followed, there was the simple happiness of being side by side.",
+    "story": [
+      "These early photographs hold the beginning without needing to explain everything. I see two people still discovering how much their lives were about to change."
+    ],
+    "mood": "dawn",
+    "favorite": true,
+    "quote": "The beginning was beautiful because it led me to you."
   },
   {
     "id": "the-days-between",
-    "chapterId": "falling-in-love",
-    "eyebrow": "Chapter two",
-    "title": "All the days between",
-    "date": "The early years",
-    "location": "Everywhere we were together",
-    "people": ["Wasiatus", "Nahuel"],
-    "category": "Everyday love",
-    "tags": ["laughter", "dates", "little moments"],
-    "summary": "The jokes no one else understood. The conversations that lasted too long. The first collection of our favorite ordinary days.",
+    "chapterId": "how-we-met",
+    "eyebrow": "Our story",
+    "title": "The beginning of us",
+    "date": "2022-09-20",
+    "location": "Wherever we were together",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Our story",
+    "tags": [
+      "our beginnings",
+      "core"
+    ],
+    "summary": "Before all the chapters that followed, there was the simple happiness of being side by side.",
     "story": [
-      "Add two or three true moments here: a first date detail, a ridiculous shared joke, or the day Nahuel realized this was becoming something permanent.",
-      "Small specificity will make this chapter more emotional than any generic romantic phrase."
+      "These early photographs hold the beginning without needing to explain everything. I see two people still discovering how much their lives were about to change."
+    ],
+    "mood": "dawn",
+    "favorite": true,
+    "quote": "The beginning was beautiful because it led me to you."
+  },
+  {
+    "id": "our-beginnings-p0903",
+    "chapterId": "how-we-met",
+    "eyebrow": "Our story",
+    "title": "The beginning of us",
+    "date": "2022-09-21",
+    "location": "Wherever we were together",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Our story",
+    "tags": [
+      "our beginnings",
+      "gallery"
+    ],
+    "summary": "Before all the chapters that followed, there was the simple happiness of being side by side.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "dawn",
+    "favorite": false,
+    "quote": "The beginning was beautiful because it led me to you."
+  },
+  {
+    "id": "her-portrait-p0979",
+    "chapterId": "falling-in-love",
+    "eyebrow": "Our story",
+    "title": "That face I love",
+    "date": "2022-10-15",
+    "location": "A moment worth keeping",
+    "people": [
+      "Wasiatus"
+    ],
+    "category": "Wasiatus",
+    "tags": [
+      "her portrait",
+      "gallery"
+    ],
+    "summary": "A glimpse of the woman whose warmth, humor, and strength hold this whole story together.",
+    "story": [
+      "A real moment from the family story we keep building together."
     ],
     "mood": "blush",
     "favorite": false,
-    "quote": "You made ordinary feel like something worth remembering."
+    "quote": "Every version of you is one I am grateful to know."
+  },
+  {
+    "id": "her-portrait-p0987",
+    "chapterId": "falling-in-love",
+    "eyebrow": "Our story",
+    "title": "Wasiatus, wonderfully herself",
+    "date": "2022-10-16",
+    "location": "A moment worth keeping",
+    "people": [
+      "Wasiatus"
+    ],
+    "category": "Wasiatus",
+    "tags": [
+      "her portrait",
+      "gallery"
+    ],
+    "summary": "A glimpse of the woman whose warmth, humor, and strength hold this whole story together.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "blush",
+    "favorite": false,
+    "quote": "Every version of you is one I am grateful to know."
+  },
+  {
+    "id": "everyday-life-p1091",
+    "chapterId": "choosing-each-other",
+    "eyebrow": "Our story",
+    "title": "A life that feels real",
+    "date": "2022-10-24",
+    "location": "Our everyday life",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Everyday love",
+    "tags": [
+      "everyday life",
+      "gallery"
+    ],
+    "summary": "The unpolished everyday moments became the life I would choose again.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "gold",
+    "favorite": false,
+    "quote": "The life between milestones is the life I love with you."
+  },
+  {
+    "id": "her-portrait-p0053",
+    "chapterId": "falling-in-love",
+    "eyebrow": "Our story",
+    "title": "Her beautiful light",
+    "date": "2023-08-18",
+    "location": "A moment worth keeping",
+    "people": [
+      "Wasiatus"
+    ],
+    "category": "Wasiatus",
+    "tags": [
+      "her portrait",
+      "core"
+    ],
+    "summary": "A glimpse of the woman whose warmth, humor, and strength hold this whole story together.",
+    "story": [
+      "I love photographs where you are simply yourself. They remind me that beauty is not only a perfect pose; it is your expressions, your humor, and the life behind your eyes."
+    ],
+    "mood": "blush",
+    "favorite": true,
+    "quote": "Every version of you is one I am grateful to know."
+  },
+  {
+    "id": "adventures-p0058",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Our story",
+    "title": "Side by side, somewhere new",
+    "date": "2023-08-21",
+    "location": "One of our adventures",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Adventures",
+    "tags": [
+      "adventures",
+      "core"
+    ],
+    "summary": "The destination was beautiful, but sharing it with you is what made it ours.",
+    "story": [
+      "There are places I remember because they were impressive, and places I remember because you were beside me. The second kind always stays with me longer."
+    ],
+    "mood": "wine",
+    "favorite": true,
+    "quote": "Everywhere felt closer to home when I could find your hand."
+  },
+  {
+    "id": "adventures-p0067",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Our story",
+    "title": "Another place, the same us",
+    "date": "2023-08-25",
+    "location": "One of our adventures",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Adventures",
+    "tags": [
+      "adventures",
+      "core"
+    ],
+    "summary": "The destination was beautiful, but sharing it with you is what made it ours.",
+    "story": [
+      "There are places I remember because they were impressive, and places I remember because you were beside me. The second kind always stays with me longer."
+    ],
+    "mood": "wine",
+    "favorite": true,
+    "quote": "Everywhere felt closer to home when I could find your hand."
+  },
+  {
+    "id": "adventures-p0073",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Our story",
+    "title": "The road was better together",
+    "date": "2023-08-26",
+    "location": "One of our adventures",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Adventures",
+    "tags": [
+      "adventures",
+      "gallery"
+    ],
+    "summary": "The destination was beautiful, but sharing it with you is what made it ours.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "wine",
+    "favorite": false,
+    "quote": "Everywhere felt closer to home when I could find your hand."
+  },
+  {
+    "id": "playful-love-p0080",
+    "chapterId": "falling-in-love",
+    "eyebrow": "Our story",
+    "title": "The look only we understand",
+    "date": "2023-08-30",
+    "location": "Inside one of our ordinary days",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Everyday love",
+    "tags": [
+      "playful love",
+      "core"
+    ],
+    "summary": "Love also lives in funny faces, private jokes, and the moments that refuse to be serious.",
+    "story": [
+      "Some of my favorite memories are not grand or carefully planned. They are the seconds when we made each other laugh and the rest of the world became background noise."
+    ],
+    "mood": "blush",
+    "favorite": true,
+    "quote": "You make ordinary life feel lighter."
+  },
+  {
+    "id": "playful-love-p0046",
+    "chapterId": "falling-in-love",
+    "eyebrow": "Our story",
+    "title": "Laughing through the ordinary",
+    "date": "2023-09-24",
+    "location": "Inside one of our ordinary days",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Everyday love",
+    "tags": [
+      "playful love",
+      "gallery"
+    ],
+    "summary": "Love also lives in funny faces, private jokes, and the moments that refuse to be serious.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "blush",
+    "favorite": false,
+    "quote": "You make ordinary life feel lighter."
+  },
+  {
+    "id": "playful-love-p1151",
+    "chapterId": "falling-in-love",
+    "eyebrow": "Our story",
+    "title": "Our kind of silly",
+    "date": "2023-11-22",
+    "location": "Inside one of our ordinary days",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Everyday love",
+    "tags": [
+      "playful love",
+      "core"
+    ],
+    "summary": "Love also lives in funny faces, private jokes, and the moments that refuse to be serious.",
+    "story": [
+      "Some of my favorite memories are not grand or carefully planned. They are the seconds when we made each other laugh and the rest of the world became background noise."
+    ],
+    "mood": "blush",
+    "favorite": true,
+    "quote": "You make ordinary life feel lighter."
+  },
+  {
+    "id": "her-portrait-p1164",
+    "chapterId": "falling-in-love",
+    "eyebrow": "Our story",
+    "title": "A portrait of my favorite person",
+    "date": "2024-04-13",
+    "location": "A moment worth keeping",
+    "people": [
+      "Wasiatus"
+    ],
+    "category": "Wasiatus",
+    "tags": [
+      "her portrait",
+      "gallery"
+    ],
+    "summary": "A glimpse of the woman whose warmth, humor, and strength hold this whole story together.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "blush",
+    "favorite": false,
+    "quote": "Every version of you is one I am grateful to know."
+  },
+  {
+    "id": "quiet-love-p1241",
+    "chapterId": "choosing-each-other",
+    "eyebrow": "Our story",
+    "title": "Peace beside you",
+    "date": "2024-05-03",
+    "location": "Together",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Everyday love",
+    "tags": [
+      "quiet love",
+      "core"
+    ],
+    "summary": "Not every love story needs noise. Sometimes it is simply the peace of being close.",
+    "story": [
+      "This is the love I want to protect: being listened to, trusting each other, growing with maturity, and finding peace together even when life is complicated."
+    ],
+    "mood": "gold",
+    "favorite": true,
+    "quote": "My favorite peace has always been beside you."
+  },
+  {
+    "id": "everyday-life-p1286",
+    "chapterId": "choosing-each-other",
+    "eyebrow": "Our story",
+    "title": "The ordinary days",
+    "date": "2024-06-09",
+    "location": "Our everyday life",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Everyday love",
+    "tags": [
+      "everyday life",
+      "core"
+    ],
+    "summary": "The unpolished everyday moments became the life I would choose again.",
+    "story": [
+      "Love grew inside routines: morning notes, shared lunches, checking in, listening, and continuing to care even on tiring days. That ordinary persistence is part of our promise too."
+    ],
+    "mood": "gold",
+    "favorite": true,
+    "quote": "The life between milestones is the life I love with you."
+  },
+  {
+    "id": "our-beginnings-p2907",
+    "chapterId": "how-we-met",
+    "eyebrow": "Our story",
+    "title": "Already feeling like home",
+    "date": "2024-07-19",
+    "location": "Wherever we were together",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Our story",
+    "tags": [
+      "our beginnings",
+      "core"
+    ],
+    "summary": "Before all the chapters that followed, there was the simple happiness of being side by side.",
+    "story": [
+      "These early photographs hold the beginning without needing to explain everything. I see two people still discovering how much their lives were about to change."
+    ],
+    "mood": "dawn",
+    "favorite": true,
+    "quote": "The beginning was beautiful because it led me to you."
+  },
+  {
+    "id": "becoming-family-p1328",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "And then there were three",
+    "date": "2024-07-24",
+    "location": "The moment our world grew",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family",
+    "tags": [
+      "becoming family",
+      "core"
+    ],
+    "summary": "A small image carried the enormous promise that our world was about to grow.",
+    "story": [
+      "Before we could hold Rayden, we already carried dreams, worries, and a love bigger than we knew how to describe. These images mark the quiet beginning of becoming a family."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "Before we met you, we were already waiting with love."
+  },
+  {
+    "id": "becoming-family-p1352",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "The first picture of our future",
+    "date": "2024-08-25",
+    "location": "The moment our world grew",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family",
+    "tags": [
+      "becoming family",
+      "core"
+    ],
+    "summary": "A small image carried the enormous promise that our world was about to grow.",
+    "story": [
+      "Before we could hold Rayden, we already carried dreams, worries, and a love bigger than we knew how to describe. These images mark the quiet beginning of becoming a family."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "Before we met you, we were already waiting with love."
+  },
+  {
+    "id": "adventures-p1370",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Our story",
+    "title": "A view I shared with you",
+    "date": "2024-09-04",
+    "location": "One of our adventures",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Adventures",
+    "tags": [
+      "adventures",
+      "gallery"
+    ],
+    "summary": "The destination was beautiful, but sharing it with you is what made it ours.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "wine",
+    "favorite": false,
+    "quote": "Everywhere felt closer to home when I could find your hand."
+  },
+  {
+    "id": "her-portrait-p1427",
+    "chapterId": "falling-in-love",
+    "eyebrow": "Our story",
+    "title": "Her beautiful light",
+    "date": "2024-09-23",
+    "location": "A moment worth keeping",
+    "people": [
+      "Wasiatus"
+    ],
+    "category": "Wasiatus",
+    "tags": [
+      "her portrait",
+      "gallery"
+    ],
+    "summary": "A glimpse of the woman whose warmth, humor, and strength hold this whole story together.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "blush",
+    "favorite": false,
+    "quote": "Every version of you is one I am grateful to know."
   },
   {
     "id": "our-promise",
     "chapterId": "choosing-each-other",
-    "eyebrow": "Chapter three",
-    "title": "The promise we keep",
-    "date": "Our wedding chapter",
+    "eyebrow": "Our story",
+    "title": "The quiet kind of love",
+    "date": "2024-10-16",
     "location": "Together",
-    "people": ["Wasiatus", "Nahuel"],
-    "category": "Milestones",
-    "tags": ["wedding", "promise", "partnership"],
-    "summary": "Not only one beautiful day, but every choice that followed it.",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Everyday love",
+    "tags": [
+      "quiet love",
+      "core"
+    ],
+    "summary": "Not every love story needs noise. Sometimes it is simply the peace of being close.",
     "story": [
-      "Replace this placeholder with the wedding memory Wasiatus would choose first: what Nahuel saw, felt, or almost forgot to say.",
-      "Then connect that day to the quieter promise of choosing each other in daily life."
+      "This is the love I want to protect: being listened to, trusting each other, growing with maturity, and finding peace together even when life is complicated."
     ],
     "mood": "gold",
+    "favorite": true,
+    "quote": "My favorite peace has always been beside you."
+  },
+  {
+    "id": "newborn-days-p0123",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "The smallest center of our world",
+    "date": "2025-04-10",
+    "location": "Our first days together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family",
+    "tags": [
+      "newborn days",
+      "gallery"
+    ],
+    "summary": "Tired eyes, tiny hands, and the overwhelming tenderness of our first days as a family.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
     "favorite": false,
-    "quote": "I chose you then. I choose you still."
+    "quote": "Our love grew hands small enough to hold one finger."
+  },
+  {
+    "id": "little-joys-p0147",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Tiny expression, enormous joy",
+    "date": "2025-04-14",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "newborn-days-p1595",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "So tiny, already everything",
+    "date": "2025-04-22",
+    "location": "Our first days together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family",
+    "tags": [
+      "newborn days",
+      "core"
+    ],
+    "summary": "Tired eyes, tiny hands, and the overwhelming tenderness of our first days as a family.",
+    "story": [
+      "Those first days were not polished. They were feeding, worrying, learning, staying awake, and loving more fiercely than ever. I watched your strength become tenderness again and again."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "Our love grew hands small enough to hold one finger."
   },
   {
     "id": "hello-rayden",
     "chapterId": "becoming-a-family",
-    "eyebrow": "Chapter four",
-    "title": "Hello, Rayden",
-    "date": "The day we became three",
-    "location": "The center of our world",
-    "people": ["Wasiatus", "Nahuel", "Rayden"],
+    "eyebrow": "Our story",
+    "title": "Our first days as three",
+    "date": "2025-04-30",
+    "location": "Our first days together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
     "category": "Family",
-    "tags": ["Rayden", "family", "parenthood"],
-    "summary": "Our love grew hands to hold, a laugh to recognize, and a whole new future to imagine.",
+    "tags": [
+      "newborn days",
+      "core"
+    ],
+    "summary": "Tired eyes, tiny hands, and the overwhelming tenderness of our first days as a family.",
     "story": [
-      "Tell the real story of pregnancy and Rayden's birth here, centered on what Nahuel admired in Wasiatus and how it felt to meet Rayden.",
-      "This chapter can include a message to Wasiatus as a mother and a small moment that captures the family's everyday joy."
+      "Those first days were not polished. They were feeding, worrying, learning, staying awake, and loving more fiercely than ever. I watched your strength become tenderness again and again."
     ],
     "mood": "sage",
     "favorite": true,
-    "quote": "The two of us became a family, and love learned a new language."
+    "quote": "Our love grew hands small enough to hold one finger."
+  },
+  {
+    "id": "newborn-days-p1669",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "So tiny, already everything",
+    "date": "2025-05-01",
+    "location": "Our first days together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family",
+    "tags": [
+      "newborn days",
+      "gallery"
+    ],
+    "summary": "Tired eyes, tiny hands, and the overwhelming tenderness of our first days as a family.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "Our love grew hands small enough to hold one finger."
+  },
+  {
+    "id": "newborn-days-p1689",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Learning every little sound",
+    "date": "2025-05-02",
+    "location": "Our first days together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family",
+    "tags": [
+      "newborn days",
+      "core"
+    ],
+    "summary": "Tired eyes, tiny hands, and the overwhelming tenderness of our first days as a family.",
+    "story": [
+      "Those first days were not polished. They were feeding, worrying, learning, staying awake, and loving more fiercely than ever. I watched your strength become tenderness again and again."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "Our love grew hands small enough to hold one finger."
+  },
+  {
+    "id": "little-joys-p1712",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "The laugh that changed the room",
+    "date": "2025-05-04",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "little-joys-p1726",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Those curious eyes",
+    "date": "2025-05-04",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "little-joys-p1734",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Our favorite little character",
+    "date": "2025-05-05",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "fatherhood-p1762",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "A new way to hold the future",
+    "date": "2025-05-10",
+    "location": "Our family days",
+    "people": [
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Fatherhood",
+    "tags": [
+      "fatherhood",
+      "gallery"
+    ],
+    "summary": "Rayden gave me a new way to understand responsibility, tenderness, and the future.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "You gave me the family I want to keep becoming worthy of."
+  },
+  {
+    "id": "newborn-days-p2771",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Love in its newest form",
+    "date": "2025-05-13",
+    "location": "Our first days together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family",
+    "tags": [
+      "newborn days",
+      "core"
+    ],
+    "summary": "Tired eyes, tiny hands, and the overwhelming tenderness of our first days as a family.",
+    "story": [
+      "Those first days were not polished. They were feeding, worrying, learning, staying awake, and loving more fiercely than ever. I watched your strength become tenderness again and again."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "Our love grew hands small enough to hold one finger."
+  },
+  {
+    "id": "becoming-family-p1836",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Love learned a new name",
+    "date": "2025-05-24",
+    "location": "The moment our world grew",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family",
+    "tags": [
+      "becoming family",
+      "core"
+    ],
+    "summary": "A small image carried the enormous promise that our world was about to grow.",
+    "story": [
+      "Before we could hold Rayden, we already carried dreams, worries, and a love bigger than we knew how to describe. These images mark the quiet beginning of becoming a family."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "Before we met you, we were already waiting with love."
+  },
+  {
+    "id": "little-joys-p1843",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "That little smile",
+    "date": "2025-05-27",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "little-joys-p1851",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "A face we could watch forever",
+    "date": "2025-05-29",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "motherhood-p1855",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "The way you hold our world",
+    "date": "2025-05-30",
+    "location": "Wherever Rayden needed you",
+    "people": [
+      "Wasiatus",
+      "Rayden"
+    ],
+    "category": "Motherhood",
+    "tags": [
+      "motherhood",
+      "core"
+    ],
+    "summary": "Watching you care for Rayden revealed another beautiful kind of strength in you.",
+    "story": [
+      "I see the patience, attention, and persistence motherhood asks from you. I see how you listen, protect, comfort, and keep going. Rayden is lucky to know the safety of your arms."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "In your arms, our little world learned what safe means."
+  },
+  {
+    "id": "newborn-days-p1881",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Our first days as three",
+    "date": "2025-06-07",
+    "location": "Our first days together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family",
+    "tags": [
+      "newborn days",
+      "gallery"
+    ],
+    "summary": "Tired eyes, tiny hands, and the overwhelming tenderness of our first days as a family.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "Our love grew hands small enough to hold one finger."
+  },
+  {
+    "id": "family-adventures-p1884",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Our story",
+    "title": "Wherever the three of us go",
+    "date": "2025-06-09",
+    "location": "Japan · out in the world together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family adventures",
+    "tags": [
+      "family adventures",
+      "gallery"
+    ],
+    "summary": "A simple outing became another page in the life our family is building together.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "wine",
+    "favorite": false,
+    "quote": "Home came with us wherever the three of us went."
+  },
+  {
+    "id": "little-joys-p1896",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Tiny expression, enormous joy",
+    "date": "2025-06-12",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "fatherhood-p2646",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Close to Papa",
+    "date": "2025-06-20",
+    "location": "Our family days",
+    "people": [
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Fatherhood",
+    "tags": [
+      "fatherhood",
+      "gallery"
+    ],
+    "summary": "Rayden gave me a new way to understand responsibility, tenderness, and the future.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "You gave me the family I want to keep becoming worthy of."
+  },
+  {
+    "id": "little-joys-p1949",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "That little smile",
+    "date": "2025-06-21",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "core"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "Every new expression became an event: a smile, a yawn, a serious stare, a ridiculous little face. These are the details that made the tiring days feel precious."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "family-memories-p2011",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Now we are three",
+    "date": "2025-06-28",
+    "location": "Together as three",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family",
+    "tags": [
+      "family memories",
+      "core"
+    ],
+    "summary": "Three faces, one growing story, and a memory that already feels like a keepsake.",
+    "story": [
+      "A family is built through thousands of small acts of care. This photograph gathers those invisible moments into one frame: the three of us, learning and growing together."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "This is us—imperfect, growing, and full of love."
+  },
+  {
+    "id": "motherhood-p2022",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Safe in Mama's arms",
+    "date": "2025-06-28",
+    "location": "Wherever Rayden needed you",
+    "people": [
+      "Wasiatus",
+      "Rayden"
+    ],
+    "category": "Motherhood",
+    "tags": [
+      "motherhood",
+      "core"
+    ],
+    "summary": "Watching you care for Rayden revealed another beautiful kind of strength in you.",
+    "story": [
+      "I see the patience, attention, and persistence motherhood asks from you. I see how you listen, protect, comfort, and keep going. Rayden is lucky to know the safety of your arms."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "In your arms, our little world learned what safe means."
+  },
+  {
+    "id": "motherhood-p2024",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Your strength became tenderness",
+    "date": "2025-06-29",
+    "location": "Wherever Rayden needed you",
+    "people": [
+      "Wasiatus",
+      "Rayden"
+    ],
+    "category": "Motherhood",
+    "tags": [
+      "motherhood",
+      "gallery"
+    ],
+    "summary": "Watching you care for Rayden revealed another beautiful kind of strength in you.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "In your arms, our little world learned what safe means."
+  },
+  {
+    "id": "little-joys-p2086",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "The laugh that changed the room",
+    "date": "2025-07-12",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "quiet-love-p2883",
+    "chapterId": "choosing-each-other",
+    "eyebrow": "Our story",
+    "title": "Close enough to breathe",
+    "date": "2025-07-22",
+    "location": "Together",
+    "people": [
+      "Wasiatus",
+      "Nahuel"
+    ],
+    "category": "Everyday love",
+    "tags": [
+      "quiet love",
+      "gallery"
+    ],
+    "summary": "Not every love story needs noise. Sometimes it is simply the peace of being close.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "gold",
+    "favorite": false,
+    "quote": "My favorite peace has always been beside you."
+  },
+  {
+    "id": "fatherhood-p2251",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "The two of us",
+    "date": "2025-08-06",
+    "location": "Our family days",
+    "people": [
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Fatherhood",
+    "tags": [
+      "fatherhood",
+      "gallery"
+    ],
+    "summary": "Rayden gave me a new way to understand responsibility, tenderness, and the future.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "You gave me the family I want to keep becoming worthy of."
+  },
+  {
+    "id": "motherhood-p2286",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Love, carried close",
+    "date": "2025-08-16",
+    "location": "Wherever Rayden needed you",
+    "people": [
+      "Wasiatus",
+      "Rayden"
+    ],
+    "category": "Motherhood",
+    "tags": [
+      "motherhood",
+      "gallery"
+    ],
+    "summary": "Watching you care for Rayden revealed another beautiful kind of strength in you.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "In your arms, our little world learned what safe means."
+  },
+  {
+    "id": "fatherhood-p2308",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Learning love all over again",
+    "date": "2025-08-17",
+    "location": "Our family days",
+    "people": [
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Fatherhood",
+    "tags": [
+      "fatherhood",
+      "core"
+    ],
+    "summary": "Rayden gave me a new way to understand responsibility, tenderness, and the future.",
+    "story": [
+      "Holding Rayden made the future feel real in a completely new way. These moments belong to our story because you and I are building this family together, one ordinary day at a time."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "You gave me the family I want to keep becoming worthy of."
+  },
+  {
+    "id": "little-joys-p2317",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Those curious eyes",
+    "date": "2025-08-21",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "family-adventures-p2339",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Our story",
+    "title": "Three hearts, one adventure",
+    "date": "2025-08-23",
+    "location": "Japan · out in the world together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family adventures",
+    "tags": [
+      "family adventures",
+      "core"
+    ],
+    "summary": "A simple outing became another page in the life our family is building together.",
+    "story": [
+      "The world looks new when we experience it as a family. Even a small outing becomes a memory because Rayden is discovering it and you are there beside us."
+    ],
+    "mood": "wine",
+    "favorite": true,
+    "quote": "Home came with us wherever the three of us went."
+  },
+  {
+    "id": "fatherhood-p2359",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Father and child",
+    "date": "2025-08-24",
+    "location": "Our family days",
+    "people": [
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Fatherhood",
+    "tags": [
+      "fatherhood",
+      "core"
+    ],
+    "summary": "Rayden gave me a new way to understand responsibility, tenderness, and the future.",
+    "story": [
+      "Holding Rayden made the future feel real in a completely new way. These moments belong to our story because you and I are building this family together, one ordinary day at a time."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "You gave me the family I want to keep becoming worthy of."
+  },
+  {
+    "id": "fatherhood-p2360",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Learning love all over again",
+    "date": "2025-08-24",
+    "location": "Our family days",
+    "people": [
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Fatherhood",
+    "tags": [
+      "fatherhood",
+      "gallery"
+    ],
+    "summary": "Rayden gave me a new way to understand responsibility, tenderness, and the future.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "You gave me the family I want to keep becoming worthy of."
+  },
+  {
+    "id": "little-joys-p2408",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Our favorite little character",
+    "date": "2025-09-03",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "celebrations-p2444",
+    "chapterId": "future-dreams",
+    "eyebrow": "Our story",
+    "title": "A little candle, a lot of love",
+    "date": "2025-09-11",
+    "location": "A day worth celebrating",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Celebrations",
+    "tags": [
+      "celebrations",
+      "gallery"
+    ],
+    "summary": "A candle, a family, and another small reason to be grateful for this life.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "night",
+    "favorite": false,
+    "quote": "May every new year find us still choosing joy together."
   },
   {
     "id": "our-japan-chapter",
     "chapterId": "life-in-japan",
-    "eyebrow": "Chapter five",
-    "title": "A new map of home",
-    "date": "Our Japan chapter",
-    "location": "Japan",
-    "people": ["Wasiatus", "Nahuel", "Rayden"],
-    "category": "Adventures",
-    "tags": ["Japan", "moving", "travel", "family"],
-    "summary": "New streets, new seasons, and the same three people learning how to call another place home.",
+    "eyebrow": "Our story",
+    "title": "Showing you our world",
+    "date": "2025-09-13",
+    "location": "Japan · out in the world together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family adventures",
+    "tags": [
+      "family adventures",
+      "core"
+    ],
+    "summary": "A simple outing became another page in the life our family is building together.",
     "story": [
-      "Add the real details of moving to Japan: the courage it took, the surprises, the difficult parts, and the family moments now impossible to imagine living without.",
-      "Photos from different seasons can turn this into a visual passage through the life you built together."
+      "The world looks new when we experience it as a family. Even a small outing becomes a memory because Rayden is discovering it and you are there beside us."
+    ],
+    "mood": "wine",
+    "favorite": true,
+    "quote": "Home came with us wherever the three of us went."
+  },
+  {
+    "id": "family-adventures-p2565",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Our story",
+    "title": "A family day out",
+    "date": "2025-11-08",
+    "location": "Japan · out in the world together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family adventures",
+    "tags": [
+      "family adventures",
+      "core"
+    ],
+    "summary": "A simple outing became another page in the life our family is building together.",
+    "story": [
+      "The world looks new when we experience it as a family. Even a small outing becomes a memory because Rayden is discovering it and you are there beside us."
+    ],
+    "mood": "wine",
+    "favorite": true,
+    "quote": "Home came with us wherever the three of us went."
+  },
+  {
+    "id": "fatherhood-p2563",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "Father and child",
+    "date": "2025-11-08",
+    "location": "Our family days",
+    "people": [
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Fatherhood",
+    "tags": [
+      "fatherhood",
+      "gallery"
+    ],
+    "summary": "Rayden gave me a new way to understand responsibility, tenderness, and the future.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "You gave me the family I want to keep becoming worthy of."
+  },
+  {
+    "id": "family-adventures-p2637",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Our story",
+    "title": "A new view together",
+    "date": "2026-01-02",
+    "location": "Japan · out in the world together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family adventures",
+    "tags": [
+      "family adventures",
+      "gallery"
+    ],
+    "summary": "A simple outing became another page in the life our family is building together.",
+    "story": [
+      "A real moment from the family story we keep building together."
     ],
     "mood": "wine",
     "favorite": false,
-    "quote": "Home was never only a place. It was us."
+    "quote": "Home came with us wherever the three of us went."
+  },
+  {
+    "id": "little-joys-p0092",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "That little smile",
+    "date": "2026-01-03",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "gallery"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "sage",
+    "favorite": false,
+    "quote": "The smallest person brought the biggest joy."
+  },
+  {
+    "id": "family-adventures-p0128",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Our story",
+    "title": "Three hearts, one adventure",
+    "date": "2026-01-04",
+    "location": "Japan · out in the world together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family adventures",
+    "tags": [
+      "family adventures",
+      "gallery"
+    ],
+    "summary": "A simple outing became another page in the life our family is building together.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "wine",
+    "favorite": false,
+    "quote": "Home came with us wherever the three of us went."
+  },
+  {
+    "id": "family-adventures-p0140",
+    "chapterId": "life-in-japan",
+    "eyebrow": "Our story",
+    "title": "Showing you our world",
+    "date": "2026-01-04",
+    "location": "Japan · out in the world together",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Family adventures",
+    "tags": [
+      "family adventures",
+      "gallery"
+    ],
+    "summary": "A simple outing became another page in the life our family is building together.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "wine",
+    "favorite": false,
+    "quote": "Home came with us wherever the three of us went."
+  },
+  {
+    "id": "growing-together-p1572",
+    "chapterId": "future-dreams",
+    "eyebrow": "Our story",
+    "title": "The newest chapter",
+    "date": "2026-01-07",
+    "location": "Today",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Growing together",
+    "tags": [
+      "growing together",
+      "gallery"
+    ],
+    "summary": "The baby in our arms is growing, and so are we—still learning how to be a family together.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "night",
+    "favorite": false,
+    "quote": "The future is already arriving in the person Rayden is becoming."
+  },
+  {
+    "id": "growing-together-p1598",
+    "chapterId": "future-dreams",
+    "eyebrow": "Our story",
+    "title": "Today, together",
+    "date": "2026-01-10",
+    "location": "Today",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Growing together",
+    "tags": [
+      "growing together",
+      "gallery"
+    ],
+    "summary": "The baby in our arms is growing, and so are we—still learning how to be a family together.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "night",
+    "favorite": false,
+    "quote": "The future is already arriving in the person Rayden is becoming."
+  },
+  {
+    "id": "home-together-p1639",
+    "chapterId": "future-dreams",
+    "eyebrow": "Our story",
+    "title": "Home was all of us",
+    "date": "2026-01-15",
+    "location": "Home",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Home together",
+    "tags": [
+      "home together",
+      "core"
+    ],
+    "summary": "The quietest family moments are sometimes the clearest picture of everything we hoped for.",
+    "story": [
+      "This is the peaceful life I want to keep building with you: a home where we listen, trust, mature, forgive, and wake up ready to care for one another again."
+    ],
+    "mood": "night",
+    "favorite": true,
+    "quote": "Peace is not a place. It is the life we protect together."
+  },
+  {
+    "id": "her-portrait-p1684",
+    "chapterId": "falling-in-love",
+    "eyebrow": "Our story",
+    "title": "That face I love",
+    "date": "2026-01-17",
+    "location": "A moment worth keeping",
+    "people": [
+      "Wasiatus"
+    ],
+    "category": "Wasiatus",
+    "tags": [
+      "her portrait",
+      "gallery"
+    ],
+    "summary": "A glimpse of the woman whose warmth, humor, and strength hold this whole story together.",
+    "story": [
+      "A real moment from the family story we keep building together."
+    ],
+    "mood": "blush",
+    "favorite": false,
+    "quote": "Every version of you is one I am grateful to know."
+  },
+  {
+    "id": "home-together-p1826",
+    "chapterId": "future-dreams",
+    "eyebrow": "Our story",
+    "title": "The peace we built",
+    "date": "2026-01-29",
+    "location": "Home",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Home together",
+    "tags": [
+      "home together",
+      "core"
+    ],
+    "summary": "The quietest family moments are sometimes the clearest picture of everything we hoped for.",
+    "story": [
+      "This is the peaceful life I want to keep building with you: a home where we listen, trust, mature, forgive, and wake up ready to care for one another again."
+    ],
+    "mood": "night",
+    "favorite": true,
+    "quote": "Peace is not a place. It is the life we protect together."
   },
   {
     "id": "tomorrows-together",
     "chapterId": "future-dreams",
-    "eyebrow": "Chapter six",
-    "title": "All our tomorrows",
-    "date": "From today onward",
-    "location": "Wherever we go next",
-    "people": ["Wasiatus", "Nahuel", "Rayden"],
-    "category": "Future dreams",
-    "tags": ["future", "dreams", "birthday"],
-    "summary": "More birthdays, more adventures, more laughter from the next room—and more reasons to choose one another.",
+    "eyebrow": "Our story",
+    "title": "Look how far we have come",
+    "date": "2026-06-14",
+    "location": "Today",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Growing together",
+    "tags": [
+      "growing together",
+      "core"
+    ],
+    "summary": "The baby in our arms is growing, and so are we—still learning how to be a family together.",
     "story": [
-      "Write three specific dreams here: one simple, one adventurous, and one about the kind of family life Nahuel hopes to keep building with Wasiatus.",
-      "End in the present—with gratitude for who she is at thirty-five, not only for the memories already made."
+      "These recent photographs remind me that time is moving quickly. I want to notice it, to be present for it, and to keep choosing a mature and peaceful life with you through every new stage."
     ],
     "mood": "night",
-    "favorite": false,
-    "quote": "The best thing about the future is finding you in it."
+    "favorite": true,
+    "quote": "The future is already arriving in the person Rayden is becoming."
+  },
+  {
+    "id": "growing-together-p2560",
+    "chapterId": "future-dreams",
+    "eyebrow": "Our story",
+    "title": "Growing beside you",
+    "date": "2026-06-23",
+    "location": "Today",
+    "people": [
+      "Wasiatus",
+      "Nahuel",
+      "Rayden"
+    ],
+    "category": "Growing together",
+    "tags": [
+      "growing together",
+      "core"
+    ],
+    "summary": "The baby in our arms is growing, and so are we—still learning how to be a family together.",
+    "story": [
+      "These recent photographs remind me that time is moving quickly. I want to notice it, to be present for it, and to keep choosing a mature and peaceful life with you through every new stage."
+    ],
+    "mood": "night",
+    "favorite": true,
+    "quote": "The future is already arriving in the person Rayden is becoming."
+  },
+  {
+    "id": "little-joys-p2562",
+    "chapterId": "becoming-a-family",
+    "eyebrow": "Our story",
+    "title": "A face we could watch forever",
+    "date": "2026-07-04",
+    "location": "The center of our attention",
+    "people": [
+      "Rayden"
+    ],
+    "category": "Rayden",
+    "tags": [
+      "little joys",
+      "core"
+    ],
+    "summary": "One tiny expression was enough to change the mood of the whole room.",
+    "story": [
+      "Every new expression became an event: a smile, a yawn, a serious stare, a ridiculous little face. These are the details that made the tiring days feel precious."
+    ],
+    "mood": "sage",
+    "favorite": true,
+    "quote": "The smallest person brought the biggest joy."
   }
 ]

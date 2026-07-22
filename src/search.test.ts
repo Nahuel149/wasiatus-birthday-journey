@@ -14,7 +14,8 @@ describe("memory search", () => {
       favoritesOnly: false,
       favorites: new Set(),
     });
-    expect(result.map((memory) => memory.id)).toEqual(["our-japan-chapter"]);
+    expect(result.map((memory) => memory.id)).toContain("our-japan-chapter");
+    expect(result.every((memory) => memory.people.includes("Rayden"))).toBe(true);
   });
 
   it("combines category and browser-favorite filters", () => {

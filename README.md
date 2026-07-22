@@ -53,7 +53,7 @@ The first meaningful release should include:
 - A final surprise that unlocks after the journey
 - GitHub Pages deployment on every push to `main`
 
-The remaining MVP work is now primarily real family content, representative-media load testing, accessibility/performance QA, and final deployment.
+The remaining MVP work is now primarily final personal writing, representative-media load testing, accessibility/performance QA, and birthday-release polish.
 
 ## Definition of success
 
@@ -83,7 +83,7 @@ The first working MVP is now included. It currently provides:
 - Vitest unit/component coverage and Playwright desktop/mobile journey tests
 - Automated WCAG A/AA scans, 300-record gallery stress mode, and production bundle budgets
 
-All photographs and the most personal story paragraphs are intentional placeholders. Replace these with real family material before publishing.
+The approved release now includes 74 curated family photographs: 33 core-story images and 41 supporting gallery moments. Camera originals stay outside `public/`; the published AVIF/WebP derivatives are metadata-stripped by the local media pipeline.
 
 ## Run locally
 

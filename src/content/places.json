@@ -2,8 +2,8 @@
   {
     "id": "our-beginning",
     "name": "Where it began",
-    "country": "Add the real place",
-    "note": "The first pin belongs to the place where one conversation changed everything.",
+    "country": "Our first chapter",
+    "note": "The first pin belongs to the days when one conversation became a life neither of us could yet imagine.",
     "x": 27,
     "y": 49,
     "memoryIds": ["our-first-hello", "the-days-between"]
@@ -21,7 +21,7 @@
     "id": "family-center",
     "name": "The center of our world",
     "country": "Where Rayden joined our story",
-    "note": "Replace this illustrative pin with the safe location label you want Wasiatus to see.",
+    "note": "The center of our map changed forever when our love became a family of three.",
     "x": 58,
     "y": 61,
     "memoryIds": ["hello-rayden"]

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { chapters, getMediaForMemory, getMemory, getVideoForMemory, places, songs } from "./data";
+import { chapters, getMediaForMemory, getMemory, getVideoForMemory, media, places, songs } from "./data";
 
 describe("content selectors", () => {
   it("resolves every chapter's canonical memory", () => {
@@ -16,8 +16,9 @@ describe("content selectors", () => {
     expect(songs.every((song) => !song.memoryId || getMemory(song.memoryId))).toBe(true);
   });
 
-  it("returns undefined media selectors while personal assets are absent", () => {
-    expect(getMediaForMemory("our-first-hello")).toBeUndefined();
+  it("connects the approved personal media to every memory", () => {
+    expect(media).toHaveLength(74);
+    expect(getMediaForMemory("our-first-hello")).toBeDefined();
     expect(getVideoForMemory("our-first-hello")).toBeUndefined();
   });
 });

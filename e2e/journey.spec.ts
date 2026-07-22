@@ -29,20 +29,33 @@ test("landing journey unlocks the birthday finale", async ({ page }) => {
 
 test("gallery filters are shareable and the lightbox restores focus", async ({ page }) => {
   await page.goto("/#/gallery");
-  const firstMemory = page.getByRole("button", { name: "View The first hello" });
+  const firstMemory = page.locator(".gallery-card__image").first();
   await firstMemory.click();
 
   await expect(page.getByRole("dialog")).toBeVisible();
   await expect(page.getByRole("button", { name: "Close viewer" })).toBeFocused();
   await page.keyboard.press("ArrowRight");
-  await expect(page.getByRole("dialog").getByRole("heading", { name: "All the days between" })).toBeVisible();
+  await expect(page.getByRole("dialog").getByRole("heading", { name: "An early favorite" })).toBeVisible();
   await page.keyboard.press("Escape");
   await expect(firstMemory).toBeFocused();
 
   const search = page.getByRole("searchbox", { name: "Search memories" });
   await search.fill("Rayden Japan");
-  await expect(page.locator(".gallery-card")).toHaveCount(1);
+  await expect(page.locator(".gallery-card")).toHaveCount(7);
   await expect(page).toHaveURL(/q=Rayden(?:\+|%20)Japan/);
+});
+
+test("approved chapter and gallery photographs load successfully", async ({ page }) => {
+  await page.goto("/#/journey");
+  await expect(page.locator(".chapter .memory-visual--photo")).toHaveCount(23);
+
+  await page.goto("/#/gallery");
+  await expect(page.getByText("74 memories")).toBeVisible();
+  await expect(page.locator(".gallery-card")).toHaveCount(60);
+  const visibleImage = page.locator(".gallery-card img").first();
+  await expect.poll(async () => visibleImage.evaluate((image) => (
+    (image as HTMLImageElement).complete ? (image as HTMLImageElement).naturalWidth : 0
+  ))).toBeGreaterThan(0);
 });
 
 test("300-record gallery renders in bounded batches", async ({ page }) => {

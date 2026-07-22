@@ -146,7 +146,7 @@ export function GalleryPage() {
     <div className="standard-page gallery-page">
       <header className="page-intro page-intro--split">
         <div><p className="eyebrow">The memory room</p><h1>Our gallery</h1></div>
-        <p>A starter collection ready to be replaced with the photographs that only your family could recognize.</p>
+        <p>Seventy-four pieces of our story: early days, quiet love, becoming parents, and the little expressions we never want to forget.</p>
       </header>
 
       <div className="gallery-toolbar">
@@ -184,7 +184,7 @@ export function GalleryPage() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.96 }}
               >
-                <button className="gallery-card__image" onClick={() => setSelectedIndex(index)} aria-label={`View ${memory.title}${media ? "" : " — Your photograph here"}`}>
+                <button className="gallery-card__image" onClick={() => setSelectedIndex(index)} aria-label={`View ${memory.title}`}>
                   <MemoryVisual mood={memory.mood} label={memory.title} compact={index % 3 === 1} media={media} />
                 </button>
                 <div className="gallery-card__copy">

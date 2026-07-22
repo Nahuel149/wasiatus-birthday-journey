@@ -1,1 +1,1186 @@
-[]
+[
+  {
+    "id": "adventures-p0058-image",
+    "memoryId": "adventures-p0058",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2023-08-21",
+    "width": 1536,
+    "height": 2048,
+    "sources": {
+      "thumbnailAvif": "media/images/adventures-p0058-480.avif",
+      "thumbnailWebp": "media/images/adventures-p0058-480.webp",
+      "mediumAvif": "media/images/adventures-p0058-960.avif",
+      "mediumWebp": "media/images/adventures-p0058-960.webp",
+      "largeAvif": "media/images/adventures-p0058-1920.avif",
+      "largeWebp": "media/images/adventures-p0058-1920.webp"
+    }
+  },
+  {
+    "id": "adventures-p0067-image",
+    "memoryId": "adventures-p0067",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2023-08-25",
+    "width": 1536,
+    "height": 2048,
+    "sources": {
+      "thumbnailAvif": "media/images/adventures-p0067-480.avif",
+      "thumbnailWebp": "media/images/adventures-p0067-480.webp",
+      "mediumAvif": "media/images/adventures-p0067-960.avif",
+      "mediumWebp": "media/images/adventures-p0067-960.webp",
+      "largeAvif": "media/images/adventures-p0067-1920.avif",
+      "largeWebp": "media/images/adventures-p0067-1920.webp"
+    }
+  },
+  {
+    "id": "adventures-p0073-image",
+    "memoryId": "adventures-p0073",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2023-08-26",
+    "width": 1500,
+    "height": 2000,
+    "sources": {
+      "thumbnailAvif": "media/images/adventures-p0073-480.avif",
+      "thumbnailWebp": "media/images/adventures-p0073-480.webp",
+      "mediumAvif": "media/images/adventures-p0073-960.avif",
+      "mediumWebp": "media/images/adventures-p0073-960.webp",
+      "largeAvif": "media/images/adventures-p0073-1920.avif",
+      "largeWebp": "media/images/adventures-p0073-1920.webp"
+    }
+  },
+  {
+    "id": "adventures-p1370-image",
+    "memoryId": "adventures-p1370",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2024-09-04",
+    "width": 5184,
+    "height": 3880,
+    "sources": {
+      "thumbnailAvif": "media/images/adventures-p1370-480.avif",
+      "thumbnailWebp": "media/images/adventures-p1370-480.webp",
+      "mediumAvif": "media/images/adventures-p1370-960.avif",
+      "mediumWebp": "media/images/adventures-p1370-960.webp",
+      "largeAvif": "media/images/adventures-p1370-1920.avif",
+      "largeWebp": "media/images/adventures-p1370-1920.webp"
+    }
+  },
+  {
+    "id": "becoming-family-p1328-image",
+    "memoryId": "becoming-family-p1328",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2024-07-24",
+    "width": 4624,
+    "height": 3472,
+    "sources": {
+      "thumbnailAvif": "media/images/becoming-family-p1328-480.avif",
+      "thumbnailWebp": "media/images/becoming-family-p1328-480.webp",
+      "mediumAvif": "media/images/becoming-family-p1328-960.avif",
+      "mediumWebp": "media/images/becoming-family-p1328-960.webp",
+      "largeAvif": "media/images/becoming-family-p1328-1920.avif",
+      "largeWebp": "media/images/becoming-family-p1328-1920.webp"
+    }
+  },
+  {
+    "id": "becoming-family-p1352-image",
+    "memoryId": "becoming-family-p1352",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2024-08-25",
+    "width": 4624,
+    "height": 3472,
+    "sources": {
+      "thumbnailAvif": "media/images/becoming-family-p1352-480.avif",
+      "thumbnailWebp": "media/images/becoming-family-p1352-480.webp",
+      "mediumAvif": "media/images/becoming-family-p1352-960.avif",
+      "mediumWebp": "media/images/becoming-family-p1352-960.webp",
+      "largeAvif": "media/images/becoming-family-p1352-1920.avif",
+      "largeWebp": "media/images/becoming-family-p1352-1920.webp"
+    }
+  },
+  {
+    "id": "becoming-family-p1836-image",
+    "memoryId": "becoming-family-p1836",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-05-24",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/becoming-family-p1836-480.avif",
+      "thumbnailWebp": "media/images/becoming-family-p1836-480.webp",
+      "mediumAvif": "media/images/becoming-family-p1836-960.avif",
+      "mediumWebp": "media/images/becoming-family-p1836-960.webp",
+      "largeAvif": "media/images/becoming-family-p1836-1920.avif",
+      "largeWebp": "media/images/becoming-family-p1836-1920.webp"
+    }
+  },
+  {
+    "id": "celebrations-p2444-image",
+    "memoryId": "celebrations-p2444",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-09-11",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/celebrations-p2444-480.avif",
+      "thumbnailWebp": "media/images/celebrations-p2444-480.webp",
+      "mediumAvif": "media/images/celebrations-p2444-960.avif",
+      "mediumWebp": "media/images/celebrations-p2444-960.webp",
+      "largeAvif": "media/images/celebrations-p2444-1920.avif",
+      "largeWebp": "media/images/celebrations-p2444-1920.webp"
+    }
+  },
+  {
+    "id": "everyday-life-p1091-image",
+    "memoryId": "everyday-life-p1091",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2022-10-24",
+    "width": 5184,
+    "height": 3880,
+    "sources": {
+      "thumbnailAvif": "media/images/everyday-life-p1091-480.avif",
+      "thumbnailWebp": "media/images/everyday-life-p1091-480.webp",
+      "mediumAvif": "media/images/everyday-life-p1091-960.avif",
+      "mediumWebp": "media/images/everyday-life-p1091-960.webp",
+      "largeAvif": "media/images/everyday-life-p1091-1920.avif",
+      "largeWebp": "media/images/everyday-life-p1091-1920.webp"
+    }
+  },
+  {
+    "id": "everyday-life-p1286-image",
+    "memoryId": "everyday-life-p1286",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2024-06-09",
+    "width": 4624,
+    "height": 3472,
+    "sources": {
+      "thumbnailAvif": "media/images/everyday-life-p1286-480.avif",
+      "thumbnailWebp": "media/images/everyday-life-p1286-480.webp",
+      "mediumAvif": "media/images/everyday-life-p1286-960.avif",
+      "mediumWebp": "media/images/everyday-life-p1286-960.webp",
+      "largeAvif": "media/images/everyday-life-p1286-1920.avif",
+      "largeWebp": "media/images/everyday-life-p1286-1920.webp"
+    }
+  },
+  {
+    "id": "family-adventures-p0128-image",
+    "memoryId": "family-adventures-p0128",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2026-01-04",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/family-adventures-p0128-480.avif",
+      "thumbnailWebp": "media/images/family-adventures-p0128-480.webp",
+      "mediumAvif": "media/images/family-adventures-p0128-960.avif",
+      "mediumWebp": "media/images/family-adventures-p0128-960.webp",
+      "largeAvif": "media/images/family-adventures-p0128-1920.avif",
+      "largeWebp": "media/images/family-adventures-p0128-1920.webp"
+    }
+  },
+  {
+    "id": "family-adventures-p0140-image",
+    "memoryId": "family-adventures-p0140",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2026-01-04",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/family-adventures-p0140-480.avif",
+      "thumbnailWebp": "media/images/family-adventures-p0140-480.webp",
+      "mediumAvif": "media/images/family-adventures-p0140-960.avif",
+      "mediumWebp": "media/images/family-adventures-p0140-960.webp",
+      "largeAvif": "media/images/family-adventures-p0140-1920.avif",
+      "largeWebp": "media/images/family-adventures-p0140-1920.webp"
+    }
+  },
+  {
+    "id": "family-adventures-p1884-image",
+    "memoryId": "family-adventures-p1884",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-06-09",
+    "width": 3840,
+    "height": 2160,
+    "sources": {
+      "thumbnailAvif": "media/images/family-adventures-p1884-480.avif",
+      "thumbnailWebp": "media/images/family-adventures-p1884-480.webp",
+      "mediumAvif": "media/images/family-adventures-p1884-960.avif",
+      "mediumWebp": "media/images/family-adventures-p1884-960.webp",
+      "largeAvif": "media/images/family-adventures-p1884-1920.avif",
+      "largeWebp": "media/images/family-adventures-p1884-1920.webp"
+    }
+  },
+  {
+    "id": "family-adventures-p2339-image",
+    "memoryId": "family-adventures-p2339",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-08-23",
+    "width": 3088,
+    "height": 2316,
+    "sources": {
+      "thumbnailAvif": "media/images/family-adventures-p2339-480.avif",
+      "thumbnailWebp": "media/images/family-adventures-p2339-480.webp",
+      "mediumAvif": "media/images/family-adventures-p2339-960.avif",
+      "mediumWebp": "media/images/family-adventures-p2339-960.webp",
+      "largeAvif": "media/images/family-adventures-p2339-1920.avif",
+      "largeWebp": "media/images/family-adventures-p2339-1920.webp"
+    }
+  },
+  {
+    "id": "family-adventures-p2565-image",
+    "memoryId": "family-adventures-p2565",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-11-08",
+    "width": 3088,
+    "height": 2316,
+    "sources": {
+      "thumbnailAvif": "media/images/family-adventures-p2565-480.avif",
+      "thumbnailWebp": "media/images/family-adventures-p2565-480.webp",
+      "mediumAvif": "media/images/family-adventures-p2565-960.avif",
+      "mediumWebp": "media/images/family-adventures-p2565-960.webp",
+      "largeAvif": "media/images/family-adventures-p2565-1920.avif",
+      "largeWebp": "media/images/family-adventures-p2565-1920.webp"
+    }
+  },
+  {
+    "id": "family-adventures-p2637-image",
+    "memoryId": "family-adventures-p2637",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2026-01-02",
+    "width": 3664,
+    "height": 2062,
+    "sources": {
+      "thumbnailAvif": "media/images/family-adventures-p2637-480.avif",
+      "thumbnailWebp": "media/images/family-adventures-p2637-480.webp",
+      "mediumAvif": "media/images/family-adventures-p2637-960.avif",
+      "mediumWebp": "media/images/family-adventures-p2637-960.webp",
+      "largeAvif": "media/images/family-adventures-p2637-1920.avif",
+      "largeWebp": "media/images/family-adventures-p2637-1920.webp"
+    }
+  },
+  {
+    "id": "family-memories-p2011-image",
+    "memoryId": "family-memories-p2011",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-06-28",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/family-memories-p2011-480.avif",
+      "thumbnailWebp": "media/images/family-memories-p2011-480.webp",
+      "mediumAvif": "media/images/family-memories-p2011-960.avif",
+      "mediumWebp": "media/images/family-memories-p2011-960.webp",
+      "largeAvif": "media/images/family-memories-p2011-1920.avif",
+      "largeWebp": "media/images/family-memories-p2011-1920.webp"
+    }
+  },
+  {
+    "id": "fatherhood-p1762-image",
+    "memoryId": "fatherhood-p1762",
+    "kind": "image",
+    "alt": "Nahuel and Rayden in a family photograph from 2025-05-10",
+    "width": 3088,
+    "height": 2316,
+    "sources": {
+      "thumbnailAvif": "media/images/fatherhood-p1762-480.avif",
+      "thumbnailWebp": "media/images/fatherhood-p1762-480.webp",
+      "mediumAvif": "media/images/fatherhood-p1762-960.avif",
+      "mediumWebp": "media/images/fatherhood-p1762-960.webp",
+      "largeAvif": "media/images/fatherhood-p1762-1920.avif",
+      "largeWebp": "media/images/fatherhood-p1762-1920.webp"
+    }
+  },
+  {
+    "id": "fatherhood-p2251-image",
+    "memoryId": "fatherhood-p2251",
+    "kind": "image",
+    "alt": "Nahuel and Rayden in a family photograph from 2025-08-06",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/fatherhood-p2251-480.avif",
+      "thumbnailWebp": "media/images/fatherhood-p2251-480.webp",
+      "mediumAvif": "media/images/fatherhood-p2251-960.avif",
+      "mediumWebp": "media/images/fatherhood-p2251-960.webp",
+      "largeAvif": "media/images/fatherhood-p2251-1920.avif",
+      "largeWebp": "media/images/fatherhood-p2251-1920.webp"
+    }
+  },
+  {
+    "id": "fatherhood-p2308-image",
+    "memoryId": "fatherhood-p2308",
+    "kind": "image",
+    "alt": "Nahuel and Rayden in a family photograph from 2025-08-17",
+    "width": 1536,
+    "height": 2048,
+    "sources": {
+      "thumbnailAvif": "media/images/fatherhood-p2308-480.avif",
+      "thumbnailWebp": "media/images/fatherhood-p2308-480.webp",
+      "mediumAvif": "media/images/fatherhood-p2308-960.avif",
+      "mediumWebp": "media/images/fatherhood-p2308-960.webp",
+      "largeAvif": "media/images/fatherhood-p2308-1920.avif",
+      "largeWebp": "media/images/fatherhood-p2308-1920.webp"
+    }
+  },
+  {
+    "id": "fatherhood-p2359-image",
+    "memoryId": "fatherhood-p2359",
+    "kind": "image",
+    "alt": "Nahuel and Rayden in a family photograph from 2025-08-24",
+    "width": 3088,
+    "height": 2316,
+    "sources": {
+      "thumbnailAvif": "media/images/fatherhood-p2359-480.avif",
+      "thumbnailWebp": "media/images/fatherhood-p2359-480.webp",
+      "mediumAvif": "media/images/fatherhood-p2359-960.avif",
+      "mediumWebp": "media/images/fatherhood-p2359-960.webp",
+      "largeAvif": "media/images/fatherhood-p2359-1920.avif",
+      "largeWebp": "media/images/fatherhood-p2359-1920.webp"
+    }
+  },
+  {
+    "id": "fatherhood-p2360-image",
+    "memoryId": "fatherhood-p2360",
+    "kind": "image",
+    "alt": "Nahuel and Rayden in a family photograph from 2025-08-24",
+    "width": 3088,
+    "height": 2316,
+    "sources": {
+      "thumbnailAvif": "media/images/fatherhood-p2360-480.avif",
+      "thumbnailWebp": "media/images/fatherhood-p2360-480.webp",
+      "mediumAvif": "media/images/fatherhood-p2360-960.avif",
+      "mediumWebp": "media/images/fatherhood-p2360-960.webp",
+      "largeAvif": "media/images/fatherhood-p2360-1920.avif",
+      "largeWebp": "media/images/fatherhood-p2360-1920.webp"
+    }
+  },
+  {
+    "id": "fatherhood-p2563-image",
+    "memoryId": "fatherhood-p2563",
+    "kind": "image",
+    "alt": "Nahuel and Rayden in a family photograph from 2025-11-08",
+    "width": 3088,
+    "height": 2316,
+    "sources": {
+      "thumbnailAvif": "media/images/fatherhood-p2563-480.avif",
+      "thumbnailWebp": "media/images/fatherhood-p2563-480.webp",
+      "mediumAvif": "media/images/fatherhood-p2563-960.avif",
+      "mediumWebp": "media/images/fatherhood-p2563-960.webp",
+      "largeAvif": "media/images/fatherhood-p2563-1920.avif",
+      "largeWebp": "media/images/fatherhood-p2563-1920.webp"
+    }
+  },
+  {
+    "id": "fatherhood-p2646-image",
+    "memoryId": "fatherhood-p2646",
+    "kind": "image",
+    "alt": "Nahuel and Rayden in a family photograph from 2025-06-20",
+    "width": 3664,
+    "height": 2062,
+    "sources": {
+      "thumbnailAvif": "media/images/fatherhood-p2646-480.avif",
+      "thumbnailWebp": "media/images/fatherhood-p2646-480.webp",
+      "mediumAvif": "media/images/fatherhood-p2646-960.avif",
+      "mediumWebp": "media/images/fatherhood-p2646-960.webp",
+      "largeAvif": "media/images/fatherhood-p2646-1920.avif",
+      "largeWebp": "media/images/fatherhood-p2646-1920.webp"
+    }
+  },
+  {
+    "id": "growing-together-p1572-image",
+    "memoryId": "growing-together-p1572",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2026-01-07",
+    "width": 3088,
+    "height": 2316,
+    "sources": {
+      "thumbnailAvif": "media/images/growing-together-p1572-480.avif",
+      "thumbnailWebp": "media/images/growing-together-p1572-480.webp",
+      "mediumAvif": "media/images/growing-together-p1572-960.avif",
+      "mediumWebp": "media/images/growing-together-p1572-960.webp",
+      "largeAvif": "media/images/growing-together-p1572-1920.avif",
+      "largeWebp": "media/images/growing-together-p1572-1920.webp"
+    }
+  },
+  {
+    "id": "growing-together-p1598-image",
+    "memoryId": "growing-together-p1598",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2026-01-10",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/growing-together-p1598-480.avif",
+      "thumbnailWebp": "media/images/growing-together-p1598-480.webp",
+      "mediumAvif": "media/images/growing-together-p1598-960.avif",
+      "mediumWebp": "media/images/growing-together-p1598-960.webp",
+      "largeAvif": "media/images/growing-together-p1598-1920.avif",
+      "largeWebp": "media/images/growing-together-p1598-1920.webp"
+    }
+  },
+  {
+    "id": "growing-together-p2560-image",
+    "memoryId": "growing-together-p2560",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2026-06-23",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/growing-together-p2560-480.avif",
+      "thumbnailWebp": "media/images/growing-together-p2560-480.webp",
+      "mediumAvif": "media/images/growing-together-p2560-960.avif",
+      "mediumWebp": "media/images/growing-together-p2560-960.webp",
+      "largeAvif": "media/images/growing-together-p2560-1920.avif",
+      "largeWebp": "media/images/growing-together-p2560-1920.webp"
+    }
+  },
+  {
+    "id": "hello-rayden-image",
+    "memoryId": "hello-rayden",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-04-30",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/hello-rayden-480.avif",
+      "thumbnailWebp": "media/images/hello-rayden-480.webp",
+      "mediumAvif": "media/images/hello-rayden-960.avif",
+      "mediumWebp": "media/images/hello-rayden-960.webp",
+      "largeAvif": "media/images/hello-rayden-1920.avif",
+      "largeWebp": "media/images/hello-rayden-1920.webp"
+    }
+  },
+  {
+    "id": "her-portrait-p0053-image",
+    "memoryId": "her-portrait-p0053",
+    "kind": "image",
+    "alt": "Wasiatus in a family photograph from 2023-08-18",
+    "width": 1536,
+    "height": 2048,
+    "sources": {
+      "thumbnailAvif": "media/images/her-portrait-p0053-480.avif",
+      "thumbnailWebp": "media/images/her-portrait-p0053-480.webp",
+      "mediumAvif": "media/images/her-portrait-p0053-960.avif",
+      "mediumWebp": "media/images/her-portrait-p0053-960.webp",
+      "largeAvif": "media/images/her-portrait-p0053-1920.avif",
+      "largeWebp": "media/images/her-portrait-p0053-1920.webp"
+    }
+  },
+  {
+    "id": "her-portrait-p0979-image",
+    "memoryId": "her-portrait-p0979",
+    "kind": "image",
+    "alt": "Wasiatus in a family photograph from 2022-10-15",
+    "width": 4624,
+    "height": 3472,
+    "sources": {
+      "thumbnailAvif": "media/images/her-portrait-p0979-480.avif",
+      "thumbnailWebp": "media/images/her-portrait-p0979-480.webp",
+      "mediumAvif": "media/images/her-portrait-p0979-960.avif",
+      "mediumWebp": "media/images/her-portrait-p0979-960.webp",
+      "largeAvif": "media/images/her-portrait-p0979-1920.avif",
+      "largeWebp": "media/images/her-portrait-p0979-1920.webp"
+    }
+  },
+  {
+    "id": "her-portrait-p0987-image",
+    "memoryId": "her-portrait-p0987",
+    "kind": "image",
+    "alt": "Wasiatus in a family photograph from 2022-10-16",
+    "width": 4624,
+    "height": 3472,
+    "sources": {
+      "thumbnailAvif": "media/images/her-portrait-p0987-480.avif",
+      "thumbnailWebp": "media/images/her-portrait-p0987-480.webp",
+      "mediumAvif": "media/images/her-portrait-p0987-960.avif",
+      "mediumWebp": "media/images/her-portrait-p0987-960.webp",
+      "largeAvif": "media/images/her-portrait-p0987-1920.avif",
+      "largeWebp": "media/images/her-portrait-p0987-1920.webp"
+    }
+  },
+  {
+    "id": "her-portrait-p1164-image",
+    "memoryId": "her-portrait-p1164",
+    "kind": "image",
+    "alt": "Wasiatus in a family photograph from 2024-04-13",
+    "width": 4624,
+    "height": 3472,
+    "sources": {
+      "thumbnailAvif": "media/images/her-portrait-p1164-480.avif",
+      "thumbnailWebp": "media/images/her-portrait-p1164-480.webp",
+      "mediumAvif": "media/images/her-portrait-p1164-960.avif",
+      "mediumWebp": "media/images/her-portrait-p1164-960.webp",
+      "largeAvif": "media/images/her-portrait-p1164-1920.avif",
+      "largeWebp": "media/images/her-portrait-p1164-1920.webp"
+    }
+  },
+  {
+    "id": "her-portrait-p1427-image",
+    "memoryId": "her-portrait-p1427",
+    "kind": "image",
+    "alt": "Wasiatus in a family photograph from 2024-09-23",
+    "width": 4624,
+    "height": 3472,
+    "sources": {
+      "thumbnailAvif": "media/images/her-portrait-p1427-480.avif",
+      "thumbnailWebp": "media/images/her-portrait-p1427-480.webp",
+      "mediumAvif": "media/images/her-portrait-p1427-960.avif",
+      "mediumWebp": "media/images/her-portrait-p1427-960.webp",
+      "largeAvif": "media/images/her-portrait-p1427-1920.avif",
+      "largeWebp": "media/images/her-portrait-p1427-1920.webp"
+    }
+  },
+  {
+    "id": "her-portrait-p1684-image",
+    "memoryId": "her-portrait-p1684",
+    "kind": "image",
+    "alt": "Wasiatus in a family photograph from 2026-01-17",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/her-portrait-p1684-480.avif",
+      "thumbnailWebp": "media/images/her-portrait-p1684-480.webp",
+      "mediumAvif": "media/images/her-portrait-p1684-960.avif",
+      "mediumWebp": "media/images/her-portrait-p1684-960.webp",
+      "largeAvif": "media/images/her-portrait-p1684-1920.avif",
+      "largeWebp": "media/images/her-portrait-p1684-1920.webp"
+    }
+  },
+  {
+    "id": "home-together-p1639-image",
+    "memoryId": "home-together-p1639",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2026-01-15",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/home-together-p1639-480.avif",
+      "thumbnailWebp": "media/images/home-together-p1639-480.webp",
+      "mediumAvif": "media/images/home-together-p1639-960.avif",
+      "mediumWebp": "media/images/home-together-p1639-960.webp",
+      "largeAvif": "media/images/home-together-p1639-1920.avif",
+      "largeWebp": "media/images/home-together-p1639-1920.webp"
+    }
+  },
+  {
+    "id": "home-together-p1826-image",
+    "memoryId": "home-together-p1826",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2026-01-29",
+    "width": 3088,
+    "height": 2316,
+    "sources": {
+      "thumbnailAvif": "media/images/home-together-p1826-480.avif",
+      "thumbnailWebp": "media/images/home-together-p1826-480.webp",
+      "mediumAvif": "media/images/home-together-p1826-960.avif",
+      "mediumWebp": "media/images/home-together-p1826-960.webp",
+      "largeAvif": "media/images/home-together-p1826-1920.avif",
+      "largeWebp": "media/images/home-together-p1826-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p0092-image",
+    "memoryId": "little-joys-p0092",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2026-01-03",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p0092-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p0092-480.webp",
+      "mediumAvif": "media/images/little-joys-p0092-960.avif",
+      "mediumWebp": "media/images/little-joys-p0092-960.webp",
+      "largeAvif": "media/images/little-joys-p0092-1920.avif",
+      "largeWebp": "media/images/little-joys-p0092-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p0147-image",
+    "memoryId": "little-joys-p0147",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-04-14",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p0147-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p0147-480.webp",
+      "mediumAvif": "media/images/little-joys-p0147-960.avif",
+      "mediumWebp": "media/images/little-joys-p0147-960.webp",
+      "largeAvif": "media/images/little-joys-p0147-1920.avif",
+      "largeWebp": "media/images/little-joys-p0147-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p1712-image",
+    "memoryId": "little-joys-p1712",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-05-04",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p1712-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p1712-480.webp",
+      "mediumAvif": "media/images/little-joys-p1712-960.avif",
+      "mediumWebp": "media/images/little-joys-p1712-960.webp",
+      "largeAvif": "media/images/little-joys-p1712-1920.avif",
+      "largeWebp": "media/images/little-joys-p1712-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p1726-image",
+    "memoryId": "little-joys-p1726",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-05-04",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p1726-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p1726-480.webp",
+      "mediumAvif": "media/images/little-joys-p1726-960.avif",
+      "mediumWebp": "media/images/little-joys-p1726-960.webp",
+      "largeAvif": "media/images/little-joys-p1726-1920.avif",
+      "largeWebp": "media/images/little-joys-p1726-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p1734-image",
+    "memoryId": "little-joys-p1734",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-05-05",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p1734-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p1734-480.webp",
+      "mediumAvif": "media/images/little-joys-p1734-960.avif",
+      "mediumWebp": "media/images/little-joys-p1734-960.webp",
+      "largeAvif": "media/images/little-joys-p1734-1920.avif",
+      "largeWebp": "media/images/little-joys-p1734-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p1843-image",
+    "memoryId": "little-joys-p1843",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-05-27",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p1843-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p1843-480.webp",
+      "mediumAvif": "media/images/little-joys-p1843-960.avif",
+      "mediumWebp": "media/images/little-joys-p1843-960.webp",
+      "largeAvif": "media/images/little-joys-p1843-1920.avif",
+      "largeWebp": "media/images/little-joys-p1843-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p1851-image",
+    "memoryId": "little-joys-p1851",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-05-29",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p1851-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p1851-480.webp",
+      "mediumAvif": "media/images/little-joys-p1851-960.avif",
+      "mediumWebp": "media/images/little-joys-p1851-960.webp",
+      "largeAvif": "media/images/little-joys-p1851-1920.avif",
+      "largeWebp": "media/images/little-joys-p1851-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p1896-image",
+    "memoryId": "little-joys-p1896",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-06-12",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p1896-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p1896-480.webp",
+      "mediumAvif": "media/images/little-joys-p1896-960.avif",
+      "mediumWebp": "media/images/little-joys-p1896-960.webp",
+      "largeAvif": "media/images/little-joys-p1896-1920.avif",
+      "largeWebp": "media/images/little-joys-p1896-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p1949-image",
+    "memoryId": "little-joys-p1949",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-06-21",
+    "width": 3024,
+    "height": 4032,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p1949-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p1949-480.webp",
+      "mediumAvif": "media/images/little-joys-p1949-960.avif",
+      "mediumWebp": "media/images/little-joys-p1949-960.webp",
+      "largeAvif": "media/images/little-joys-p1949-1920.avif",
+      "largeWebp": "media/images/little-joys-p1949-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p2086-image",
+    "memoryId": "little-joys-p2086",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-07-12",
+    "width": 1080,
+    "height": 1529,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p2086-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p2086-480.webp",
+      "mediumAvif": "media/images/little-joys-p2086-960.avif",
+      "mediumWebp": "media/images/little-joys-p2086-960.webp",
+      "largeAvif": "media/images/little-joys-p2086-1920.avif",
+      "largeWebp": "media/images/little-joys-p2086-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p2317-image",
+    "memoryId": "little-joys-p2317",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-08-21",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p2317-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p2317-480.webp",
+      "mediumAvif": "media/images/little-joys-p2317-960.avif",
+      "mediumWebp": "media/images/little-joys-p2317-960.webp",
+      "largeAvif": "media/images/little-joys-p2317-1920.avif",
+      "largeWebp": "media/images/little-joys-p2317-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p2408-image",
+    "memoryId": "little-joys-p2408",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2025-09-03",
+    "width": 1320,
+    "height": 2868,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p2408-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p2408-480.webp",
+      "mediumAvif": "media/images/little-joys-p2408-960.avif",
+      "mediumWebp": "media/images/little-joys-p2408-960.webp",
+      "largeAvif": "media/images/little-joys-p2408-1920.avif",
+      "largeWebp": "media/images/little-joys-p2408-1920.webp"
+    }
+  },
+  {
+    "id": "little-joys-p2562-image",
+    "memoryId": "little-joys-p2562",
+    "kind": "image",
+    "alt": "Rayden in a family photograph from 2026-07-04",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/little-joys-p2562-480.avif",
+      "thumbnailWebp": "media/images/little-joys-p2562-480.webp",
+      "mediumAvif": "media/images/little-joys-p2562-960.avif",
+      "mediumWebp": "media/images/little-joys-p2562-960.webp",
+      "largeAvif": "media/images/little-joys-p2562-1920.avif",
+      "largeWebp": "media/images/little-joys-p2562-1920.webp"
+    }
+  },
+  {
+    "id": "motherhood-p1855-image",
+    "memoryId": "motherhood-p1855",
+    "kind": "image",
+    "alt": "Wasiatus and Rayden in a family photograph from 2025-05-30",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/motherhood-p1855-480.avif",
+      "thumbnailWebp": "media/images/motherhood-p1855-480.webp",
+      "mediumAvif": "media/images/motherhood-p1855-960.avif",
+      "mediumWebp": "media/images/motherhood-p1855-960.webp",
+      "largeAvif": "media/images/motherhood-p1855-1920.avif",
+      "largeWebp": "media/images/motherhood-p1855-1920.webp"
+    }
+  },
+  {
+    "id": "motherhood-p2022-image",
+    "memoryId": "motherhood-p2022",
+    "kind": "image",
+    "alt": "Wasiatus and Rayden in a family photograph from 2025-06-28",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/motherhood-p2022-480.avif",
+      "thumbnailWebp": "media/images/motherhood-p2022-480.webp",
+      "mediumAvif": "media/images/motherhood-p2022-960.avif",
+      "mediumWebp": "media/images/motherhood-p2022-960.webp",
+      "largeAvif": "media/images/motherhood-p2022-1920.avif",
+      "largeWebp": "media/images/motherhood-p2022-1920.webp"
+    }
+  },
+  {
+    "id": "motherhood-p2024-image",
+    "memoryId": "motherhood-p2024",
+    "kind": "image",
+    "alt": "Wasiatus and Rayden in a family photograph from 2025-06-29",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/motherhood-p2024-480.avif",
+      "thumbnailWebp": "media/images/motherhood-p2024-480.webp",
+      "mediumAvif": "media/images/motherhood-p2024-960.avif",
+      "mediumWebp": "media/images/motherhood-p2024-960.webp",
+      "largeAvif": "media/images/motherhood-p2024-1920.avif",
+      "largeWebp": "media/images/motherhood-p2024-1920.webp"
+    }
+  },
+  {
+    "id": "motherhood-p2286-image",
+    "memoryId": "motherhood-p2286",
+    "kind": "image",
+    "alt": "Wasiatus and Rayden in a family photograph from 2025-08-16",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/motherhood-p2286-480.avif",
+      "thumbnailWebp": "media/images/motherhood-p2286-480.webp",
+      "mediumAvif": "media/images/motherhood-p2286-960.avif",
+      "mediumWebp": "media/images/motherhood-p2286-960.webp",
+      "largeAvif": "media/images/motherhood-p2286-1920.avif",
+      "largeWebp": "media/images/motherhood-p2286-1920.webp"
+    }
+  },
+  {
+    "id": "newborn-days-p0123-image",
+    "memoryId": "newborn-days-p0123",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-04-10",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/newborn-days-p0123-480.avif",
+      "thumbnailWebp": "media/images/newborn-days-p0123-480.webp",
+      "mediumAvif": "media/images/newborn-days-p0123-960.avif",
+      "mediumWebp": "media/images/newborn-days-p0123-960.webp",
+      "largeAvif": "media/images/newborn-days-p0123-1920.avif",
+      "largeWebp": "media/images/newborn-days-p0123-1920.webp"
+    }
+  },
+  {
+    "id": "newborn-days-p1595-image",
+    "memoryId": "newborn-days-p1595",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-04-22",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/newborn-days-p1595-480.avif",
+      "thumbnailWebp": "media/images/newborn-days-p1595-480.webp",
+      "mediumAvif": "media/images/newborn-days-p1595-960.avif",
+      "mediumWebp": "media/images/newborn-days-p1595-960.webp",
+      "largeAvif": "media/images/newborn-days-p1595-1920.avif",
+      "largeWebp": "media/images/newborn-days-p1595-1920.webp"
+    }
+  },
+  {
+    "id": "newborn-days-p1669-image",
+    "memoryId": "newborn-days-p1669",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-05-01",
+    "width": 3088,
+    "height": 2316,
+    "sources": {
+      "thumbnailAvif": "media/images/newborn-days-p1669-480.avif",
+      "thumbnailWebp": "media/images/newborn-days-p1669-480.webp",
+      "mediumAvif": "media/images/newborn-days-p1669-960.avif",
+      "mediumWebp": "media/images/newborn-days-p1669-960.webp",
+      "largeAvif": "media/images/newborn-days-p1669-1920.avif",
+      "largeWebp": "media/images/newborn-days-p1669-1920.webp"
+    }
+  },
+  {
+    "id": "newborn-days-p1689-image",
+    "memoryId": "newborn-days-p1689",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-05-02",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/newborn-days-p1689-480.avif",
+      "thumbnailWebp": "media/images/newborn-days-p1689-480.webp",
+      "mediumAvif": "media/images/newborn-days-p1689-960.avif",
+      "mediumWebp": "media/images/newborn-days-p1689-960.webp",
+      "largeAvif": "media/images/newborn-days-p1689-1920.avif",
+      "largeWebp": "media/images/newborn-days-p1689-1920.webp"
+    }
+  },
+  {
+    "id": "newborn-days-p1881-image",
+    "memoryId": "newborn-days-p1881",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-06-07",
+    "width": 1200,
+    "height": 1600,
+    "sources": {
+      "thumbnailAvif": "media/images/newborn-days-p1881-480.avif",
+      "thumbnailWebp": "media/images/newborn-days-p1881-480.webp",
+      "mediumAvif": "media/images/newborn-days-p1881-960.avif",
+      "mediumWebp": "media/images/newborn-days-p1881-960.webp",
+      "largeAvif": "media/images/newborn-days-p1881-1920.avif",
+      "largeWebp": "media/images/newborn-days-p1881-1920.webp"
+    }
+  },
+  {
+    "id": "newborn-days-p2771-image",
+    "memoryId": "newborn-days-p2771",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-05-13",
+    "width": 1200,
+    "height": 1600,
+    "sources": {
+      "thumbnailAvif": "media/images/newborn-days-p2771-480.avif",
+      "thumbnailWebp": "media/images/newborn-days-p2771-480.webp",
+      "mediumAvif": "media/images/newborn-days-p2771-960.avif",
+      "mediumWebp": "media/images/newborn-days-p2771-960.webp",
+      "largeAvif": "media/images/newborn-days-p2771-1920.avif",
+      "largeWebp": "media/images/newborn-days-p2771-1920.webp"
+    }
+  },
+  {
+    "id": "our-beginnings-p0009-image",
+    "memoryId": "our-beginnings-p0009",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2022-09-04",
+    "width": 1477,
+    "height": 1108,
+    "sources": {
+      "thumbnailAvif": "media/images/our-beginnings-p0009-480.avif",
+      "thumbnailWebp": "media/images/our-beginnings-p0009-480.webp",
+      "mediumAvif": "media/images/our-beginnings-p0009-960.avif",
+      "mediumWebp": "media/images/our-beginnings-p0009-960.webp",
+      "largeAvif": "media/images/our-beginnings-p0009-1920.avif",
+      "largeWebp": "media/images/our-beginnings-p0009-1920.webp"
+    }
+  },
+  {
+    "id": "our-beginnings-p0759-image",
+    "memoryId": "our-beginnings-p0759",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2022-08-21",
+    "width": 5184,
+    "height": 3880,
+    "sources": {
+      "thumbnailAvif": "media/images/our-beginnings-p0759-480.avif",
+      "thumbnailWebp": "media/images/our-beginnings-p0759-480.webp",
+      "mediumAvif": "media/images/our-beginnings-p0759-960.avif",
+      "mediumWebp": "media/images/our-beginnings-p0759-960.webp",
+      "largeAvif": "media/images/our-beginnings-p0759-1920.avif",
+      "largeWebp": "media/images/our-beginnings-p0759-1920.webp"
+    }
+  },
+  {
+    "id": "our-beginnings-p0760-image",
+    "memoryId": "our-beginnings-p0760",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2022-08-21",
+    "width": 5184,
+    "height": 3880,
+    "sources": {
+      "thumbnailAvif": "media/images/our-beginnings-p0760-480.avif",
+      "thumbnailWebp": "media/images/our-beginnings-p0760-480.webp",
+      "mediumAvif": "media/images/our-beginnings-p0760-960.avif",
+      "mediumWebp": "media/images/our-beginnings-p0760-960.webp",
+      "largeAvif": "media/images/our-beginnings-p0760-1920.avif",
+      "largeWebp": "media/images/our-beginnings-p0760-1920.webp"
+    }
+  },
+  {
+    "id": "our-beginnings-p0903-image",
+    "memoryId": "our-beginnings-p0903",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2022-09-21",
+    "width": 1108,
+    "height": 1108,
+    "sources": {
+      "thumbnailAvif": "media/images/our-beginnings-p0903-480.avif",
+      "thumbnailWebp": "media/images/our-beginnings-p0903-480.webp",
+      "mediumAvif": "media/images/our-beginnings-p0903-960.avif",
+      "mediumWebp": "media/images/our-beginnings-p0903-960.webp",
+      "largeAvif": "media/images/our-beginnings-p0903-1920.avif",
+      "largeWebp": "media/images/our-beginnings-p0903-1920.webp"
+    }
+  },
+  {
+    "id": "our-beginnings-p2907-image",
+    "memoryId": "our-beginnings-p2907",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2024-07-19",
+    "width": 1200,
+    "height": 1600,
+    "sources": {
+      "thumbnailAvif": "media/images/our-beginnings-p2907-480.avif",
+      "thumbnailWebp": "media/images/our-beginnings-p2907-480.webp",
+      "mediumAvif": "media/images/our-beginnings-p2907-960.avif",
+      "mediumWebp": "media/images/our-beginnings-p2907-960.webp",
+      "largeAvif": "media/images/our-beginnings-p2907-1920.avif",
+      "largeWebp": "media/images/our-beginnings-p2907-1920.webp"
+    }
+  },
+  {
+    "id": "our-first-hello-image",
+    "memoryId": "our-first-hello",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2022-08-28",
+    "width": 1477,
+    "height": 1108,
+    "sources": {
+      "thumbnailAvif": "media/images/our-first-hello-480.avif",
+      "thumbnailWebp": "media/images/our-first-hello-480.webp",
+      "mediumAvif": "media/images/our-first-hello-960.avif",
+      "mediumWebp": "media/images/our-first-hello-960.webp",
+      "largeAvif": "media/images/our-first-hello-1920.avif",
+      "largeWebp": "media/images/our-first-hello-1920.webp"
+    }
+  },
+  {
+    "id": "our-japan-chapter-image",
+    "memoryId": "our-japan-chapter",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2025-09-13",
+    "width": 4032,
+    "height": 3024,
+    "sources": {
+      "thumbnailAvif": "media/images/our-japan-chapter-480.avif",
+      "thumbnailWebp": "media/images/our-japan-chapter-480.webp",
+      "mediumAvif": "media/images/our-japan-chapter-960.avif",
+      "mediumWebp": "media/images/our-japan-chapter-960.webp",
+      "largeAvif": "media/images/our-japan-chapter-1920.avif",
+      "largeWebp": "media/images/our-japan-chapter-1920.webp"
+    }
+  },
+  {
+    "id": "our-promise-image",
+    "memoryId": "our-promise",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2024-10-16",
+    "width": 5184,
+    "height": 3880,
+    "sources": {
+      "thumbnailAvif": "media/images/our-promise-480.avif",
+      "thumbnailWebp": "media/images/our-promise-480.webp",
+      "mediumAvif": "media/images/our-promise-960.avif",
+      "mediumWebp": "media/images/our-promise-960.webp",
+      "largeAvif": "media/images/our-promise-1920.avif",
+      "largeWebp": "media/images/our-promise-1920.webp"
+    }
+  },
+  {
+    "id": "playful-love-p0046-image",
+    "memoryId": "playful-love-p0046",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2023-09-24",
+    "width": 1920,
+    "height": 2560,
+    "sources": {
+      "thumbnailAvif": "media/images/playful-love-p0046-480.avif",
+      "thumbnailWebp": "media/images/playful-love-p0046-480.webp",
+      "mediumAvif": "media/images/playful-love-p0046-960.avif",
+      "mediumWebp": "media/images/playful-love-p0046-960.webp",
+      "largeAvif": "media/images/playful-love-p0046-1920.avif",
+      "largeWebp": "media/images/playful-love-p0046-1920.webp"
+    }
+  },
+  {
+    "id": "playful-love-p0080-image",
+    "memoryId": "playful-love-p0080",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2023-08-30",
+    "width": 1500,
+    "height": 2000,
+    "sources": {
+      "thumbnailAvif": "media/images/playful-love-p0080-480.avif",
+      "thumbnailWebp": "media/images/playful-love-p0080-480.webp",
+      "mediumAvif": "media/images/playful-love-p0080-960.avif",
+      "mediumWebp": "media/images/playful-love-p0080-960.webp",
+      "largeAvif": "media/images/playful-love-p0080-1920.avif",
+      "largeWebp": "media/images/playful-love-p0080-1920.webp"
+    }
+  },
+  {
+    "id": "playful-love-p1151-image",
+    "memoryId": "playful-love-p1151",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2023-11-22",
+    "width": 5184,
+    "height": 3880,
+    "sources": {
+      "thumbnailAvif": "media/images/playful-love-p1151-480.avif",
+      "thumbnailWebp": "media/images/playful-love-p1151-480.webp",
+      "mediumAvif": "media/images/playful-love-p1151-960.avif",
+      "mediumWebp": "media/images/playful-love-p1151-960.webp",
+      "largeAvif": "media/images/playful-love-p1151-1920.avif",
+      "largeWebp": "media/images/playful-love-p1151-1920.webp"
+    }
+  },
+  {
+    "id": "quiet-love-p1241-image",
+    "memoryId": "quiet-love-p1241",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2024-05-03",
+    "width": 5184,
+    "height": 3880,
+    "sources": {
+      "thumbnailAvif": "media/images/quiet-love-p1241-480.avif",
+      "thumbnailWebp": "media/images/quiet-love-p1241-480.webp",
+      "mediumAvif": "media/images/quiet-love-p1241-960.avif",
+      "mediumWebp": "media/images/quiet-love-p1241-960.webp",
+      "largeAvif": "media/images/quiet-love-p1241-1920.avif",
+      "largeWebp": "media/images/quiet-love-p1241-1920.webp"
+    }
+  },
+  {
+    "id": "quiet-love-p2883-image",
+    "memoryId": "quiet-love-p2883",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2025-07-22",
+    "width": 1200,
+    "height": 1600,
+    "sources": {
+      "thumbnailAvif": "media/images/quiet-love-p2883-480.avif",
+      "thumbnailWebp": "media/images/quiet-love-p2883-480.webp",
+      "mediumAvif": "media/images/quiet-love-p2883-960.avif",
+      "mediumWebp": "media/images/quiet-love-p2883-960.webp",
+      "largeAvif": "media/images/quiet-love-p2883-1920.avif",
+      "largeWebp": "media/images/quiet-love-p2883-1920.webp"
+    }
+  },
+  {
+    "id": "the-days-between-image",
+    "memoryId": "the-days-between",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel in a family photograph from 2022-09-20",
+    "width": 1108,
+    "height": 1477,
+    "sources": {
+      "thumbnailAvif": "media/images/the-days-between-480.avif",
+      "thumbnailWebp": "media/images/the-days-between-480.webp",
+      "mediumAvif": "media/images/the-days-between-960.avif",
+      "mediumWebp": "media/images/the-days-between-960.webp",
+      "largeAvif": "media/images/the-days-between-1920.avif",
+      "largeWebp": "media/images/the-days-between-1920.webp"
+    }
+  },
+  {
+    "id": "tomorrows-together-image",
+    "memoryId": "tomorrows-together",
+    "kind": "image",
+    "alt": "Wasiatus and Nahuel and Rayden in a family photograph from 2026-06-14",
+    "width": 5712,
+    "height": 4284,
+    "sources": {
+      "thumbnailAvif": "media/images/tomorrows-together-480.avif",
+      "thumbnailWebp": "media/images/tomorrows-together-480.webp",
+      "mediumAvif": "media/images/tomorrows-together-960.avif",
+      "mediumWebp": "media/images/tomorrows-together-960.webp",
+      "largeAvif": "media/images/tomorrows-together-1920.avif",
+      "largeWebp": "media/images/tomorrows-together-1920.webp"
+    }
+  }
+]

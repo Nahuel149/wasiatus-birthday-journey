@@ -3,7 +3,7 @@ import { AnimatePresence, motion, useInView, useReducedMotion } from "framer-mot
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { MemoryVisual } from "../components/MemoryVisual";
-import { chapters, getMediaForMemory, getMemory } from "../data";
+import { chapters, getMediaForMemory, getMemory, memories } from "../data";
 import { useProgress } from "../progress";
 import type { Chapter } from "../types";
 
@@ -15,6 +15,9 @@ function ChapterSection({ chapter, index, onHeartFound }: { chapter: Chapter; in
   const memory = getMemory(chapter.memoryId);
   const heartId = `heart-${chapter.id}`;
   const heartFound = foundHearts.has(heartId);
+  const companionMemories = memories
+    .filter((item) => item.chapterId === chapter.id && item.id !== memory?.id && item.tags.includes("core"))
+    .slice(0, 3);
 
   useEffect(() => {
     if (inView) visitChapter(chapter.id);
@@ -46,7 +49,7 @@ function ChapterSection({ chapter, index, onHeartFound }: { chapter: Chapter; in
       >
         <div className="chapter__visual-wrap">
           <MemoryVisual mood={chapter.mood} label={memory.title} media={getMediaForMemory(memory.id)} priority={index === 0} />
-          <span className="chapter__caption">Replace with a treasured family photograph</span>
+          <span className="chapter__caption">A real moment from our family story · {memory.date}</span>
         </div>
         <div className="chapter__copy">
           <p className="eyebrow">{chapter.kicker}</p>
@@ -63,6 +66,28 @@ function ChapterSection({ chapter, index, onHeartFound }: { chapter: Chapter; in
           </div>
         </div>
       </motion.div>
+      {companionMemories.length > 0 && (
+        <motion.div
+          className="chapter__moments"
+          initial={reducedMotion ? {} : { opacity: 0, y: 28 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.72, delay: 0.12 }}
+        >
+          <div className="chapter__moments-intro">
+            <span>More from this chapter</span>
+            <i aria-hidden="true" />
+          </div>
+          <div className="chapter__moment-grid">
+            {companionMemories.map((companion, companionIndex) => (
+              <Link className={`chapter__moment chapter__moment--${companionIndex + 1}`} to={`/memories/${companion.id}`} key={companion.id}>
+                <MemoryVisual mood={companion.mood} label={companion.title} compact media={getMediaForMemory(companion.id)} />
+                <span><small>{companion.date}</small><strong>{companion.title}</strong></span>
+              </Link>
+            ))}
+          </div>
+        </motion.div>
+      )}
     </section>
   );
 }
