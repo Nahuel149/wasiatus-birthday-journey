@@ -1,7 +1,7 @@
 import { Heart, Menu, Music2, Volume2, VolumeX, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { type ReactNode, useEffect, useState } from "react";
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { useProgress } from "../progress";
 import { GlobalAudioDock, useAudio } from "../audio";
 import { FloatingLoveNotes } from "./FloatingLoveNotes";
@@ -23,8 +23,7 @@ const links = [
 export function Shell({ children }: { children: ReactNode }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
-  const navigate = useNavigate();
-  const { currentTrack, playing, toggle } = useAudio();
+  const { currentTrack, enabled, playing, toggle } = useAudio();
   const { progressPercent } = useProgress();
 
   useEffect(() => {
@@ -62,12 +61,14 @@ export function Shell({ children }: { children: ReactNode }) {
               <span style={{ width: `${progressPercent}%` }} />
             </div>
             <button
-              className="icon-button"
-              onClick={() => currentTrack ? void toggle() : navigate("/music")}
-              aria-label={currentTrack ? (playing ? "Pause music" : "Resume music") : "Choose music"}
-              title={currentTrack ? currentTrack.title : "Choose a song from our soundtrack"}
+              data-audio-control
+              className={`icon-button sound-toggle ${enabled ? "is-enabled" : ""}`}
+              onClick={() => void toggle()}
+              aria-label={playing ? "Pause shuffled soundtrack" : "Play shuffled soundtrack"}
+              aria-pressed={enabled}
+              title={currentTrack ? `${currentTrack.title} · ${playing ? "playing" : "ready to play"}` : "Start our shuffled soundtrack"}
             >
-              {currentTrack ? (playing ? <Volume2 size={18} /> : <VolumeX size={18} />) : <Music2 size={18} />}
+              {playing ? <Volume2 size={18} /> : enabled ? <Music2 size={18} /> : <VolumeX size={18} />}
             </button>
             <button
               className="icon-button mobile-menu-button"
@@ -112,7 +113,7 @@ export function Shell({ children }: { children: ReactNode }) {
             <span>Made for Wasiatus Sadiyah</span>
           </div>
           <p>From Nahuel, with Rayden, and all our tomorrows.</p>
-          <span className="footer-note"><Music2 size={14} /> Sound remains off until you choose it.</span>
+          <span className="footer-note"><Music2 size={14} /> Shuffle is ready and begins after your first tap.</span>
         </footer>
       )}
       <GlobalAudioDock />

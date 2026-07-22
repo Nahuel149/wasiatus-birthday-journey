@@ -194,6 +194,7 @@ h1, h2, h3 { text-wrap: balance; }
   transition: background .2s, border-color .2s, transform .2s;
 }
 .icon-button:hover { background: var(--cream); border-color: var(--gold-light); transform: translateY(-1px); }
+.sound-toggle.is-enabled { border-color: rgba(184,149,80,.45); background: rgba(240,211,215,.22); color: var(--wine); }
 .mobile-menu-button { display: none; }
 .mobile-nav { position: absolute; inset: 76px 0 auto; display: none; padding: 14px 5vw 24px; border-bottom: 1px solid var(--cream-deep); background: rgba(255,253,248,.98); box-shadow: 0 18px 32px rgba(71, 43, 37, .08); }
 .mobile-nav a { padding: 12px 0; border-bottom: 1px solid rgba(87,42,52,.08); font-family: var(--serif); font-size: 1.25rem; }
@@ -213,6 +214,9 @@ h1, h2, h3 { text-wrap: balance; }
 .audio-dock label { display: flex; align-items: center; gap: 7px; color: rgba(255,255,255,.5); }
 .audio-dock input { width: 78px; accent-color: var(--gold-light); }
 .audio-dock__close { color: rgba(255,255,255,.5) !important; }
+.youtube-soundtrack { position: fixed; right: 24px; bottom: 89px; z-index: 69; width: 200px; overflow: hidden; border: 1px solid rgba(216,191,136,.38); background: #211216; color: var(--gold-light); box-shadow: 0 22px 55px rgba(34,18,22,.25); opacity: 0; visibility: hidden; pointer-events: none; transform: translateY(8px); transition: opacity .25s ease, transform .25s ease, visibility .25s; }
+.youtube-soundtrack.is-visible { opacity: 1; visibility: visible; pointer-events: auto; transform: translateY(0); }
+.youtube-soundtrack > div, .youtube-soundtrack iframe { display: block; width: 200px; height: 200px; border: 0; }
 
 /* Landing */
 .landing {
@@ -806,6 +810,7 @@ h1, h2, h3 { text-wrap: balance; }
   .keepsake-summary > div:not(:first-child) { padding-right: 12px; }
   .achievements-grid { grid-template-columns: 1fr; }
   .audio-dock { right: 10px; bottom: 10px; left: 10px; grid-template-columns: 42px minmax(0,1fr) 30px; }
+  .youtube-soundtrack { right: 10px; bottom: 78px; }
   .floating-love-note { top: 82px; right: 12px; left: 12px; width: auto; padding: 11px 15px 10px; opacity: .94; }
   .floating-love-note--landing { top: auto; right: 22px; bottom: 82px; left: auto; width: min(205px, calc(100vw - 44px)); }
   .floating-love-note small { margin-bottom: 3px; }
@@ -843,7 +848,7 @@ h1, h2, h3 { text-wrap: balance; }
 
 @media print {
   html, body { min-width: 0; background: white !important; }
-  body::before, .skip-link, .site-header, .site-footer, .audio-dock, .floating-love-note, .letter-page .page-intro, .letter-customizer, .letter-preview-label { display: none !important; }
+  body::before, .skip-link, .site-header, .site-footer, .audio-dock, .youtube-soundtrack, .floating-love-note, .letter-page .page-intro, .letter-customizer, .letter-preview-label { display: none !important; }
   .site-shell, #main-content, .letter-page { min-height: 0; overflow: visible; padding: 0; background: transparent !important; }
   .letter-paper {
     width: 100%;

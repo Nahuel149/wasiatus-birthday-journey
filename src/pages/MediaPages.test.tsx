@@ -9,7 +9,7 @@ describe("media empty states", () => {
     render(<MusicPage />, { wrapper: AppTestProviders });
 
     expect(screen.getByRole("heading", { name: "Our soundtrack" })).toBeInTheDocument();
-    expect(screen.getAllByRole("link", { name: /on YouTube/i })).toHaveLength(7);
+    expect(screen.getAllByRole("button", { name: /^Play /i })).toHaveLength(7);
     expect(screen.getByRole("heading", { name: "Suki Dakara" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Boom!" })).toBeInTheDocument();
   });

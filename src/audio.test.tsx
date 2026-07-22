@@ -1,4 +1,4 @@
-import { act, fireEvent, renderHook } from "@testing-library/react";
+import { act, fireEvent, renderHook, waitFor } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { AudioProvider, useAudio } from "./audio";
 import type { SongStory } from "./types";
@@ -14,9 +14,26 @@ const playableTrack: SongStory = {
 
 describe("AudioProvider", () => {
   beforeEach(() => {
+    localStorage.clear();
     vi.spyOn(HTMLMediaElement.prototype, "load").mockImplementation(() => undefined);
     vi.spyOn(HTMLMediaElement.prototype, "play").mockResolvedValue(undefined);
     vi.spyOn(HTMLMediaElement.prototype, "pause").mockImplementation(() => undefined);
+  });
+
+  it("enables the shuffled soundtrack by default", () => {
+    const { result } = renderHook(() => useAudio(), { wrapper: AudioProvider });
+
+    expect(result.current.enabled).toBe(true);
+    expect(result.current.currentTrack).toBeNull();
+  });
+
+  it("chooses a playable song after the visitor's first interaction", async () => {
+    const { result } = renderHook(() => useAudio(), { wrapper: AudioProvider });
+
+    fireEvent.click(document.body);
+
+    await waitFor(() => expect(result.current.currentTrack).not.toBeNull());
+    expect(result.current.currentTrack?.shuffle).not.toBe(false);
   });
 
   it("rejects a story without a playable source", async () => {

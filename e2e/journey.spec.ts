@@ -86,16 +86,49 @@ test("printable letter choices produce a clean print view", async ({ page }) => 
   await expect(page.locator(".letter-paper")).toBeVisible();
 });
 
-test("soundtrack links and floating notes stay usable without covering the journey", async ({ page }) => {
+test("the default soundtrack starts after interaction, shuffles, and stays controllable", async ({ page }) => {
+  await page.route("https://www.youtube.com/iframe_api", (route) => route.fulfill({
+    contentType: "application/javascript",
+    body: `
+      class MockPlayer {
+        constructor(element, options) {
+          this.options = options;
+          this.iframe = document.createElement("iframe");
+          this.iframe.dataset.videoId = options.videoId;
+          element.replaceWith(this.iframe);
+          window.__soundtrackPlayer = this;
+          setTimeout(() => options.events.onReady({ target: this }), 0);
+        }
+        loadVideoById(id) { this.iframe.dataset.videoId = id; this.options.events.onStateChange({ data: 1 }); }
+        playVideo() { this.options.events.onStateChange({ data: 1 }); }
+        pauseVideo() { this.options.events.onStateChange({ data: 2 }); }
+        stopVideo() { this.options.events.onStateChange({ data: 2 }); }
+        setVolume(volume) { this.volume = volume; }
+        destroy() { this.iframe.remove(); }
+      }
+      window.YT = { Player: MockPlayer };
+      window.onYouTubeIframeAPIReady?.();
+    `,
+  }));
   await page.goto("/#/music");
 
-  const youtubeLinks = page.getByRole("link", { name: /on YouTube/i });
-  await expect(youtubeLinks).toHaveCount(7);
+  const songButtons = page.locator(".song-list").getByRole("button", { name: /^Play /i });
+  await expect(songButtons).toHaveCount(7);
   await expect(page.getByLabel("A small love note")).toBeVisible();
 
-  for (const link of await youtubeLinks.all()) {
-    await expect(link).toHaveAttribute("href", /^https:\/\/www\.youtube\.com\/watch\?v=/);
-  }
+  await page.locator(".music-page h1").click();
+  await expect(page.getByRole("button", { name: "Pause music" })).toBeVisible();
+  await expect(page.locator(".youtube-soundtrack")).toBeVisible();
+
+  const firstTrack = await page.locator(".audio-dock strong").textContent();
+  await page.evaluate(() => (window as typeof window & { __soundtrackPlayer: { options: { events: { onStateChange: (event: { data: number }) => void } } } }).__soundtrackPlayer.options.events.onStateChange({ data: 0 }));
+  await expect.poll(() => page.locator(".audio-dock strong").textContent()).not.toBe(firstTrack);
+
+  const navSound = page.getByRole("button", { name: "Pause shuffled soundtrack" });
+  await navSound.click();
+  await expect(page.getByRole("button", { name: "Play shuffled soundtrack" })).toHaveAttribute("aria-pressed", "false");
+  await page.getByRole("button", { name: "Play shuffled soundtrack" }).click();
+  await expect(page.getByRole("button", { name: "Pause shuffled soundtrack" })).toHaveAttribute("aria-pressed", "true");
 
   const lastSong = page.locator(".song-card").last();
   await lastSong.scrollIntoViewIfNeeded();

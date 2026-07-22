@@ -75,6 +75,7 @@ export interface SongStory {
   memoryId?: string;
   audioPath?: string;
   externalUrl?: string;
+  shuffle?: boolean;
 }
 
 export interface Place {

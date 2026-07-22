@@ -37,7 +37,8 @@
     "title": "A Punkspring Memory",
     "artist": "PUNKSPRING · Sum 41",
     "story": "Not a song, but a small official festival keepsake: Sum 41's message to Punkspring, connecting a favorite band with the event you waited to see.",
-    "externalUrl": "https://www.youtube.com/watch?v=cGNQHMkgsdU"
+    "externalUrl": "https://www.youtube.com/watch?v=cGNQHMkgsdU",
+    "shuffle": false
   },
   {
     "id": "song-suki-dakara",

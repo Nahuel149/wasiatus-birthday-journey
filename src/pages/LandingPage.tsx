@@ -48,7 +48,7 @@ export function LandingPage() {
 
       <motion.div className="landing__note" {...reveal(0.82)}>
         <VolumeX size={15} />
-        <span>Sound is off until you choose it</span>
+        <span>Shuffle begins after your first tap</span>
       </motion.div>
       <motion.p className="landing__signature" {...reveal(0.9)}>
         From Nahuel, with all my love.
