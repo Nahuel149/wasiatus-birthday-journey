@@ -87,7 +87,6 @@ GALLERY = {
     "P1896": ("little-joys", "Baby dressed warmly and looking at the camera."),
     "P2646": ("fatherhood", "Father and baby in a casual home selfie."),
     "P2024": ("motherhood", "Baby resting securely against mother."),
-    "P2086": ("little-joys", "Curious baby close-up."),
     "P2883": ("quiet-love", "A newer couple selfie with both faces close."),
     "P2251": ("fatherhood", "Father lying beside the smiling baby."),
     "P2286": ("motherhood", "Mother and baby during feeding time."),

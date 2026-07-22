@@ -19,7 +19,7 @@ describe("content selectors", () => {
   });
 
   it("connects the approved personal media to every memory", () => {
-    expect(media).toHaveLength(73);
+    expect(media).toHaveLength(72);
     expect(new Set(media.map((item) => item.sources.mediumWebp)).size).toBe(media.length);
     expect(getMemory("our-first-hello")?.date).toBe("2022-08-21");
     expect(getMediaForMemory("our-first-hello")?.alt).toContain("August 21, 2022");

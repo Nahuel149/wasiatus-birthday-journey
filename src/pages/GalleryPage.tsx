@@ -146,7 +146,7 @@ export function GalleryPage() {
     <div className="standard-page gallery-page">
       <header className="page-intro page-intro--split">
         <div><p className="eyebrow">The memory room</p><h1>Our gallery</h1></div>
-        <p>Seventy-three unique pieces of our story: early days, quiet love, becoming parents, and the little expressions we never want to forget.</p>
+        <p>Seventy-two unique pieces of our story: early days, quiet love, becoming parents, and the little expressions we never want to forget.</p>
       </header>
 
       <div className="gallery-toolbar">

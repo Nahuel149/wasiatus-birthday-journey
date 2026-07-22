@@ -50,7 +50,7 @@ test("approved chapter and gallery photographs load successfully", async ({ page
   await expect(page.locator(".chapter .memory-visual--photo")).toHaveCount(23);
 
   await page.goto("/#/gallery");
-  await expect(page.getByText("73 memories")).toBeVisible();
+  await expect(page.getByText("72 memories")).toBeVisible();
   await expect(page.locator(".gallery-card")).toHaveCount(60);
   const visibleImage = page.locator(".gallery-card img").first();
   await expect.poll(async () => visibleImage.evaluate((image) => (
@@ -61,7 +61,7 @@ test("approved chapter and gallery photographs load successfully", async ({ page
 test("curated films and their posters are published", async ({ page }) => {
   await page.goto("/#/films");
 
-  await expect(page.locator(".video-grid article")).toHaveCount(31);
+  await expect(page.locator(".video-grid article")).toHaveCount(28);
   await expect(page.getByRole("heading", { name: "When Everything Still Felt New" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "A Wish by Candlelight" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Winter Train, Warm Company" })).toBeVisible();
@@ -69,7 +69,7 @@ test("curated films and their posters are published", async ({ page }) => {
   const catalog = await page.request.get("/media/video-manifest.json");
   expect(catalog.ok()).toBe(true);
   const catalogRecords = await catalog.json();
-  expect(catalogRecords).toHaveLength(31);
+  expect(catalogRecords).toHaveLength(28);
   expect(catalogRecords.some((record: { slug: string }) => record.slug === "winter-train-20231223")).toBe(true);
 
   const film = await page.request.head("/media/videos/winter-train-20231223.mp4");

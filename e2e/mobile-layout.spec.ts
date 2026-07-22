@@ -22,7 +22,7 @@ test("phone layouts keep cards and controls inside the viewport", async ({ page 
   }
 
   await page.goto("/#/gallery");
-  await expect(page.getByText("73 memories")).toBeVisible();
+  await expect(page.getByText("72 memories")).toBeVisible();
   const galleryBounds = await page.locator(".gallery-card").evaluateAll((cards) => cards.map((card) => {
     const rect = card.getBoundingClientRect();
     return { left: rect.left, right: rect.right };

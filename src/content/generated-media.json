@@ -720,22 +720,6 @@
     }
   },
   {
-    "id": "little-joys-p2086-image",
-    "memoryId": "little-joys-p2086",
-    "kind": "image",
-    "alt": "Rayden in a family photograph from 2025-07-12",
-    "width": 1080,
-    "height": 1529,
-    "sources": {
-      "thumbnailAvif": "media/images/little-joys-p2086-480.avif",
-      "thumbnailWebp": "media/images/little-joys-p2086-480.webp",
-      "mediumAvif": "media/images/little-joys-p2086-960.avif",
-      "mediumWebp": "media/images/little-joys-p2086-960.webp",
-      "largeAvif": "media/images/little-joys-p2086-1920.avif",
-      "largeWebp": "media/images/little-joys-p2086-1920.webp"
-    }
-  },
-  {
     "id": "little-joys-p2317-image",
     "memoryId": "little-joys-p2317",
     "kind": "image",
