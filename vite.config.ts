@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig(({ command }) => ({
   plugins: [react(), tailwindcss()],
-  base: command === "build" && process.env.GITHUB_ACTIONS === "true" ? "/wasiatus-birthday-journey/" : "/",
+  base: command === "build" ? "/wasiatus-birthday-journey/" : "/",
 }));

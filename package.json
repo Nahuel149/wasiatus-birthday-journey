@@ -18,7 +18,7 @@
     "test:e2e:ui": "playwright test --ui",
     "perf:budget": "node scripts/check-performance-budget.mjs",
     "pages:path": "node scripts/check-pages-path.mjs",
-    "verify": "npm test && npm run build && npm run perf:budget"
+    "verify": "npm test && npm run build && npm run perf:budget && npm run pages:path"
   },
   "dependencies": {
     "framer-motion": "^12.23.24",
