@@ -18,7 +18,8 @@ describe("content selectors", () => {
 
   it("connects the approved personal media to every memory", () => {
     expect(media).toHaveLength(74);
-    expect(getMediaForMemory("our-first-hello")).toBeDefined();
+    expect(getMemory("our-first-hello")?.date).toBe("2022-08-21");
+    expect(getMediaForMemory("our-first-hello")?.alt).toContain("August 21, 2022");
     expect(getVideoForMemory("our-first-hello")).toBeUndefined();
   });
 });
