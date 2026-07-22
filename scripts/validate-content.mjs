@@ -26,7 +26,7 @@ for (const [label, values] of [
   ["reason numbers", reasons.map((item) => item.number)],
   ["media IDs", media.map((item) => item.id)],
   ["place IDs", places.map((item) => item.id)],
-  ["video IDs", videos.map((item) => item.id)],
+  ["video IDs", videos.map((item) => `${item.memoryId}-video`)],
   ["song IDs", songs.map((item) => item.id)],
 ]) {
   const duplicates = duplicateValues(values);
@@ -58,11 +58,13 @@ for (const item of media) {
 }
 
 for (const video of videos) {
-  if (!memoryIds.has(video.memoryId)) errors.push(`Video ${video.id} references missing memory ${video.memoryId}`);
-  if (!video.title || !video.description) errors.push(`Video ${video.id} lacks required copy`);
-  for (const source of [video.src, video.posterAvif, video.posterWebp, video.captions].filter(Boolean)) {
+  const videoId = `${video.memoryId}-video`;
+  if (!memoryIds.has(video.memoryId)) errors.push(`Video ${videoId} references missing memory ${video.memoryId}`);
+  if (!video.title || !video.description) errors.push(`Video ${videoId} lacks required copy`);
+  const sources = [`media/videos/${video.memoryId}.mp4`, `media/posters/${video.memoryId}-poster.webp`, video.captions].filter(Boolean);
+  for (const source of sources) {
     try { await access(path.join(root, "public", source)); }
-    catch { errors.push(`Video ${video.id} references missing file ${source}`); }
+    catch { errors.push(`Video ${videoId} references missing file ${source}`); }
   }
 }
 

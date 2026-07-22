@@ -606,6 +606,7 @@ h1, h2, h3 { text-wrap: balance; }
 /* Local video */
 .video-player { position: relative; margin: 0; overflow: hidden; background: #171012; box-shadow: 0 24px 60px rgba(44,25,29,.18); }
 .video-player video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #171012; object-fit: contain; }
+.video-player--portrait video { aspect-ratio: 4 / 3; }
 .video-player figcaption { display: flex; align-items: center; gap: 7px; padding: 10px 13px; background: var(--wine); color: rgba(255,255,255,.72); font-size: .57rem; letter-spacing: .1em; text-transform: uppercase; }
 .video-player--cinematic { min-height: 660px; border-radius: 0; box-shadow: none; }
 .video-player--cinematic video { width: 100%; height: 620px; aspect-ratio: auto; }
@@ -615,6 +616,7 @@ h1, h2, h3 { text-wrap: balance; }
 .video-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 55px 28px; max-width: 1180px; margin: 0 auto; }
 .video-grid article:nth-child(even) { margin-top: 70px; }
 .video-grid article > .eyebrow { margin-top: 18px; }
+.video-grid article > .eyebrow time { color: inherit; }
 .video-grid h2 { margin: 7px 0 10px; color: var(--wine); font-family: var(--serif); font-size: 2rem; font-weight: 400; }
 .video-grid article > p:last-child { margin: 0; color: var(--muted); font-family: var(--serif); line-height: 1.6; }
 .video-empty { position: relative; display: flex; flex-direction: column; align-items: center; max-width: 850px; margin: 0 auto; padding: 85px 40px; overflow: hidden; border: 1px solid rgba(87,42,52,.11); background: #fffaf2; text-align: center; box-shadow: 0 30px 70px rgba(72,43,37,.09); }

@@ -15,10 +15,11 @@ describe("media empty states", () => {
     expect(screen.getByRole("heading", { name: "Boom!" })).toBeInTheDocument();
   });
 
-  it("explains how to add the first family film", () => {
+  it("shows the curated family films", () => {
     render(<VideoGalleryPage />, { wrapper: AppTestProviders });
 
-    expect(screen.getByRole("heading", { name: "Add the first family film" })).toBeInTheDocument();
-    expect(screen.getByText("npm run video:optimize")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Our home movies" })).toBeInTheDocument();
+    expect(document.querySelectorAll("video")).toHaveLength(8);
+    expect(screen.getByRole("heading", { name: "A Wish by Candlelight" })).toBeInTheDocument();
   });
 });

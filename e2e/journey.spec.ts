@@ -58,6 +58,22 @@ test("approved chapter and gallery photographs load successfully", async ({ page
   ))).toBeGreaterThan(0);
 });
 
+test("curated films and their posters are published", async ({ page }) => {
+  await page.goto("/#/films");
+
+  await expect(page.locator(".video-grid article")).toHaveCount(8);
+  await expect(page.getByRole("heading", { name: "When Everything Still Felt New" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "A Wish by Candlelight" })).toBeVisible();
+
+  const film = await page.request.get("/media/videos/our-beginnings-p0009.mp4");
+  expect(film.ok()).toBe(true);
+  expect(film.headers()["content-type"]).toContain("video/mp4");
+
+  const poster = await page.request.get("/media/posters/our-beginnings-p0009-poster.webp");
+  expect(poster.ok()).toBe(true);
+  expect(poster.headers()["content-type"]).toContain("image/webp");
+});
+
 test("300-record gallery renders in bounded batches", async ({ page }) => {
   await page.goto("/#/gallery?loadTest=300");
 

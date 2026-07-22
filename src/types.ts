@@ -58,11 +58,11 @@ export interface VideoItem {
   title: string;
   description: string;
   src: string;
-  posterAvif: string;
   posterWebp: string;
   width: number;
   height: number;
   durationSeconds: number;
+  capturedAt?: string;
   captions?: string;
 }
 

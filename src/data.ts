@@ -12,7 +12,14 @@ export const memories = memoriesJson as Memory[];
 export const reasons = reasonsJson as LoveReason[];
 export const media = mediaJson as ImageMediaItem[];
 export const places = placesJson as Place[];
-export const videos = videosJson as VideoItem[];
+type GeneratedVideo = Omit<VideoItem, "id" | "kind" | "src" | "posterWebp">;
+export const videos = (videosJson as GeneratedVideo[]).map((video): VideoItem => ({
+  ...video,
+  id: `${video.memoryId}-video`,
+  kind: "video",
+  src: `media/videos/${video.memoryId}.mp4`,
+  posterWebp: `media/posters/${video.memoryId}-poster.webp`,
+}));
 export const songs = (songsJson as SongStory[]).slice().sort((a, b) => a.order - b.order);
 
 export const memoryById = new Map(memories.map((memory) => [memory.id, memory]));

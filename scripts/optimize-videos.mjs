@@ -49,11 +49,15 @@ for (const file of files) {
   const id = path.basename(file, path.extname(file)).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const outputVideo = path.join(videoDir, `${id}.mp4`);
   const temporaryPoster = path.join(posterDir, `${id}-poster.png`);
-  const posterAvif = path.join(posterDir, `${id}-poster.avif`);
   const posterWebp = path.join(posterDir, `${id}-poster.webp`);
+  const itemMetadata = metadata[id] ?? {};
+  const inputArgs = ["-hide_banner", "-loglevel", "error", "-y"];
+  if (Number.isFinite(itemMetadata.sourceStartSeconds)) inputArgs.push("-ss", String(itemMetadata.sourceStartSeconds));
+  inputArgs.push("-i", file);
+  if (Number.isFinite(itemMetadata.sourceDurationSeconds)) inputArgs.push("-t", String(itemMetadata.sourceDurationSeconds));
 
   await run(ffmpeg, [
-    "-hide_banner", "-loglevel", "error", "-y", "-i", file,
+    ...inputArgs,
     "-map_metadata", "-1",
     "-movflags", "+faststart",
     "-vf", "scale=min(1920\\,iw):-2",
@@ -62,11 +66,8 @@ for (const file of files) {
     outputVideo,
   ]);
 
-  await run(ffmpeg, ["-hide_banner", "-loglevel", "error", "-y", "-ss", "0.1", "-i", outputVideo, "-frames:v", "1", "-update", "1", temporaryPoster]);
-  await Promise.all([
-    sharp(temporaryPoster).resize({ width: 1280, withoutEnlargement: true }).avif({ quality: 68 }).toFile(posterAvif),
-    sharp(temporaryPoster).resize({ width: 1280, withoutEnlargement: true }).webp({ quality: 78 }).toFile(posterWebp),
-  ]);
+  await run(ffmpeg, ["-hide_banner", "-loglevel", "error", "-y", "-ss", String(itemMetadata.posterTimeSeconds ?? .1), "-i", outputVideo, "-frames:v", "1", "-update", "1", temporaryPoster]);
+  await sharp(temporaryPoster).resize({ width: 1280, withoutEnlargement: true }).webp({ quality: 78 }).toFile(posterWebp);
   await unlink(temporaryPoster);
 
   const probe = JSON.parse(await run(ffprobe, [
@@ -75,25 +76,19 @@ for (const file of files) {
     "-of", "json", outputVideo,
   ], true));
   const stream = probe.streams?.[0];
-  const itemMetadata = metadata[id] ?? {};
-
   manifest.push({
-    id: `${id}-video`,
     memoryId: id,
-    kind: "video",
     title: itemMetadata.title ?? id.replaceAll("-", " "),
     description: itemMetadata.description ?? `Video connected to ${id.replaceAll("-", " ")}`,
-    src: `media/videos/${id}.mp4`,
-    posterAvif: `media/posters/${id}-poster.avif`,
-    posterWebp: `media/posters/${id}-poster.webp`,
     width: stream?.width ?? 1920,
     height: stream?.height ?? 1080,
     durationSeconds: Number(probe.format?.duration ?? 0),
+    ...(itemMetadata.capturedAt ? { capturedAt: itemMetadata.capturedAt } : {}),
     ...(itemMetadata.captions ? { captions: itemMetadata.captions } : {}),
   });
   console.log(`Optimized ${path.relative(root, file)}`);
 }
 
-manifest.sort((a, b) => a.memoryId.localeCompare(b.memoryId));
+manifest.sort((a, b) => (a.capturedAt ?? a.memoryId).localeCompare(b.capturedAt ?? b.memoryId));
 await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
 console.log(`Generated ${manifest.length} video record${manifest.length === 1 ? "" : "s"}.`);
