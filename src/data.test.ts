@@ -12,7 +12,9 @@ describe("content selectors", () => {
   });
 
   it("keeps songs ordered and connected to known memories", () => {
-    expect(songs.map((song) => song.order)).toEqual([1, 2, 3, 4, 5, 6, 7]);
+    expect(songs.map((song) => song.order)).toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
+    expect(songs[0]).toMatchObject({ id: "song-birthday-indonesia", opening: true });
+    expect(songs.every((song) => song.audioPath)).toBe(true);
     expect(songs.every((song) => !song.memoryId || getMemory(song.memoryId))).toBe(true);
   });
 

@@ -5,11 +5,12 @@ import { MusicPage } from "./MusicPage";
 import { VideoGalleryPage } from "./VideoGalleryPage";
 
 describe("media empty states", () => {
-  it("shows the seven chat-derived YouTube selections", () => {
+  it("shows the birthday opener and seven personal soundtrack selections", () => {
     render(<MusicPage />, { wrapper: AppTestProviders });
 
     expect(screen.getByRole("heading", { name: "Our soundtrack" })).toBeInTheDocument();
-    expect(screen.getAllByRole("button", { name: /^Play /i })).toHaveLength(7);
+    expect(screen.getAllByRole("button", { name: /^Play /i })).toHaveLength(8);
+    expect(screen.getByRole("heading", { name: "Selamat Ulang Tahun" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Suki Dakara" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Boom!" })).toBeInTheDocument();
   });

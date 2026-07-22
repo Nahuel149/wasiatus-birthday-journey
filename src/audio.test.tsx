@@ -27,13 +27,14 @@ describe("AudioProvider", () => {
     expect(result.current.currentTrack).toBeNull();
   });
 
-  it("chooses a playable song after the visitor's first interaction", async () => {
+  it("opens with the Indonesian birthday song after the visitor's first interaction", async () => {
     const { result } = renderHook(() => useAudio(), { wrapper: AudioProvider });
 
     fireEvent.click(document.body);
 
     await waitFor(() => expect(result.current.currentTrack).not.toBeNull());
-    expect(result.current.currentTrack?.shuffle).not.toBe(false);
+    expect(result.current.currentTrack?.id).toBe("song-birthday-indonesia");
+    expect(result.current.currentTrack?.opening).toBe(true);
   });
 
   it("rejects a story without a playable source", async () => {

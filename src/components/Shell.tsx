@@ -113,7 +113,7 @@ export function Shell({ children }: { children: ReactNode }) {
             <span>Made for Wasiatus Sadiyah</span>
           </div>
           <p>From Nahuel, with Rayden, and all our tomorrows.</p>
-          <span className="footer-note"><Music2 size={14} /> Shuffle is ready and begins after your first tap.</span>
+          <span className="footer-note"><Music2 size={14} /> Her birthday song begins first, then our soundtrack shuffles.</span>
         </footer>
       )}
       <GlobalAudioDock />

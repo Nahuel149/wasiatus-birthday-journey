@@ -1,59 +1,68 @@
 [
   {
-    "id": "song-my-chemical-romance",
+    "id": "song-birthday-indonesia",
     "order": 1,
+    "title": "Selamat Ulang Tahun",
+    "artist": "MELODILA · Lagu Anak Indonesia",
+    "story": "A birthday welcome in Bahasa Indonesia, chosen to open this celebration especially for you.",
+    "audioPath": "media/audio/birthday-indonesia.mp3",
+    "opening": true
+  },
+  {
+    "id": "song-my-chemical-romance",
+    "order": 2,
     "title": "Welcome to the Black Parade",
     "artist": "My Chemical Romance",
-    "story": "One of the three bands you named without hesitation. This official video is a doorway back into the dramatic, emotional music you love.",
-    "externalUrl": "https://www.youtube.com/watch?v=RRKJiM9Njr8"
+    "story": "One of the three bands you named without hesitation—a doorway back into the dramatic, emotional music you love.",
+    "audioPath": "media/audio/welcome-to-the-black-parade.mp3"
   },
   {
     "id": "song-sum-41",
-    "order": 2,
+    "order": 3,
     "title": "In Too Deep",
     "artist": "Sum 41",
     "story": "A bright, unforgettable piece of the pop-punk era—and a song already named inside our conversation about the music that stayed with us.",
-    "externalUrl": "https://www.youtube.com/watch?v=emGri7i8Y2Y"
+    "audioPath": "media/audio/in-too-deep.mp3"
   },
   {
     "id": "song-simple-plan",
-    "order": 3,
+    "order": 4,
     "title": "Welcome to My Life",
     "artist": "Simple Plan",
-    "story": "You described Simple Plan as easy listening. This official video is one of the clearest snapshots of the sound you were talking about.",
-    "externalUrl": "https://www.youtube.com/watch?v=r0U0AlLVqpk"
+    "story": "You described Simple Plan as easy listening. This is one of the clearest snapshots of the sound you were talking about.",
+    "audioPath": "media/audio/welcome-to-my-life.mp3"
   },
   {
     "id": "song-pop-punk-emo",
-    "order": 4,
+    "order": 5,
     "title": "Dear Maria, Count Me In",
     "artist": "All Time Low · pop-punk / emo pick",
     "story": "A representative song for the pop-punk and emo thread in the chat. All Time Low was another band you brought into that conversation.",
-    "externalUrl": "https://www.youtube.com/watch?v=GcNiKCmWdYE"
+    "audioPath": "media/audio/dear-maria-count-me-in.mp3"
   },
   {
     "id": "song-punkspring",
-    "order": 5,
+    "order": 6,
     "title": "A Punkspring Memory",
     "artist": "PUNKSPRING · Sum 41",
-    "story": "Not a song, but a small official festival keepsake: Sum 41's message to Punkspring, connecting a favorite band with the event you waited to see.",
-    "externalUrl": "https://www.youtube.com/watch?v=cGNQHMkgsdU",
+    "story": "Not a song, but a small festival keepsake connecting a favorite band with the event you waited to see.",
+    "audioPath": "media/audio/punkspring-message.mp3",
     "shuffle": false
   },
   {
     "id": "song-suki-dakara",
-    "order": 6,
+    "order": 7,
     "title": "Suki Dakara",
     "artist": "Yuika",
     "story": "The sweet song you sang and shared. Its simple confession belongs naturally beside the gentler memories in this journey.",
-    "externalUrl": "https://www.youtube.com/watch?v=eYAd4uDotF0"
+    "audioPath": "media/audio/suki-dakara.mp3"
   },
   {
     "id": "song-boom",
-    "order": 7,
+    "order": 8,
     "title": "Boom!",
     "artist": "Simple Plan",
-    "story": "The Spotify link from our chat leads here: an energetic Simple Plan love song, now saved as its official YouTube video.",
-    "externalUrl": "https://www.youtube.com/watch?v=UpRxhcCAeVU"
+    "story": "The song from our chat: an energetic Simple Plan love song saved inside our soundtrack.",
+    "audioPath": "media/audio/boom.mp3"
   }
 ]

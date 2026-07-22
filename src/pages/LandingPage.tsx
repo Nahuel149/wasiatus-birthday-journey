@@ -48,7 +48,7 @@ export function LandingPage() {
 
       <motion.div className="landing__note" {...reveal(0.82)}>
         <VolumeX size={15} />
-        <span>Shuffle begins after your first tap</span>
+        <span>Her birthday song begins after your first tap</span>
       </motion.div>
       <motion.p className="landing__signature" {...reveal(0.9)}>
         From Nahuel, with all my love.

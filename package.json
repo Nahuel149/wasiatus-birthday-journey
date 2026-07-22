@@ -8,6 +8,7 @@
     "build": "npm run validate && tsc -b && vite build",
     "validate": "node scripts/validate-content.mjs",
     "media:optimize": "node scripts/optimize-media.mjs",
+    "audio:optimize": "node scripts/optimize-audio.mjs",
     "video:optimize": "node scripts/optimize-videos.mjs",
     "preview": "vite preview",
     "typecheck": "tsc -b",

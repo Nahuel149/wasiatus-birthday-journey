@@ -74,8 +74,8 @@ export interface SongStory {
   story: string;
   memoryId?: string;
   audioPath?: string;
-  externalUrl?: string;
   shuffle?: boolean;
+  opening?: boolean;
 }
 
 export interface Place {

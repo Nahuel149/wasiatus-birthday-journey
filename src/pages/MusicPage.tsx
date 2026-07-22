@@ -1,4 +1,4 @@
-import { Music2, Pause, Play, VolumeX, Youtube } from "lucide-react";
+import { Music2, Pause, Play, VolumeX } from "lucide-react";
 import { motion } from "framer-motion";
 import { isPlayableTrack, useAudio } from "../audio";
 import { MemoryVisual } from "../components/MemoryVisual";
@@ -13,7 +13,7 @@ export function MusicPage() {
     <div className="music-page">
       <header className="page-intro page-intro--split">
         <div><p className="eyebrow">The songs behind the photographs</p><h1>Our soundtrack</h1></div>
-        <p>Seven musical clues from our conversation, gathered in one place. The soundtrack streams from YouTube and shuffles automatically.</p>
+        <p>Eight musical clues gathered in one place. The Indonesian birthday song opens the celebration, then the rest shuffle automatically.</p>
       </header>
 
       <div className="song-list">
@@ -53,7 +53,7 @@ export function MusicPage() {
                     {active && playing ? <Pause size={19} fill="currentColor" /> : <Play size={19} fill="currentColor" />}
                   </button>
                 ) : (
-                  <span title="Add a local audio file or external URL in songs.json"><VolumeX size={18} /><small>Story ready<br />audio pending</small></span>
+                  <span title="Add a local audio file in songs.json"><VolumeX size={18} /><small>Story ready<br />audio pending</small></span>
                 )}
               </div>
             </motion.article>
@@ -61,7 +61,7 @@ export function MusicPage() {
         })}
       </div>
 
-      <aside className="music-note"><Youtube size={20} /><p><strong>Shuffle is on by default:</strong> your browser allows the music to begin after the first click or tap. Choose any song here, or let the soundtrack continue in a new random order without immediate repeats.</p></aside>
+      <aside className="music-note"><Music2 size={20} /><p><strong>The birthday song always comes first:</strong> your browser lets it begin after the first click or tap. Afterward, the remaining songs play directly from this website in a fresh random order without immediate repeats.</p></aside>
     </div>
   );
 }

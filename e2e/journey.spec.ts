@@ -87,42 +87,35 @@ test("printable letter choices produce a clean print view", async ({ page }) => 
 });
 
 test("the default soundtrack starts after interaction, shuffles, and stays controllable", async ({ page }) => {
-  await page.route("https://www.youtube.com/iframe_api", (route) => route.fulfill({
-    contentType: "application/javascript",
-    body: `
-      class MockPlayer {
-        constructor(element, options) {
-          this.options = options;
-          this.iframe = document.createElement("iframe");
-          this.iframe.dataset.videoId = options.videoId;
-          element.replaceWith(this.iframe);
-          window.__soundtrackPlayer = this;
-          setTimeout(() => options.events.onReady({ target: this }), 0);
-        }
-        loadVideoById(id) { this.iframe.dataset.videoId = id; this.options.events.onStateChange({ data: 1 }); }
-        playVideo() { this.options.events.onStateChange({ data: 1 }); }
-        pauseVideo() { this.options.events.onStateChange({ data: 2 }); }
-        stopVideo() { this.options.events.onStateChange({ data: 2 }); }
-        setVolume(volume) { this.volume = volume; }
-        destroy() { this.iframe.remove(); }
-      }
-      window.YT = { Player: MockPlayer };
-      window.onYouTubeIframeAPIReady?.();
-    `,
-  }));
+  await page.addInitScript(() => {
+    HTMLMediaElement.prototype.play = function play() {
+      this.dispatchEvent(new Event("play"));
+      return Promise.resolve();
+    };
+    HTMLMediaElement.prototype.pause = function pause() {
+      this.dispatchEvent(new Event("pause"));
+    };
+  });
   await page.goto("/#/music");
 
+  const birthdayFile = await page.request.get("/media/audio/birthday-indonesia.mp3");
+  expect(birthdayFile.ok()).toBe(true);
+  expect(birthdayFile.headers()["content-type"]).toContain("audio/mpeg");
+
   const songButtons = page.locator(".song-list").getByRole("button", { name: /^Play /i });
-  await expect(songButtons).toHaveCount(7);
+  await expect(songButtons).toHaveCount(8);
   await expect(page.getByLabel("A small love note")).toBeVisible();
 
   await page.locator(".music-page h1").click();
   await expect(page.getByRole("button", { name: "Pause music" })).toBeVisible();
-  await expect(page.locator(".youtube-soundtrack")).toBeVisible();
+  await expect(page.locator(".audio-dock strong")).toHaveText("Selamat Ulang Tahun");
+  await expect(page.locator("audio")).toHaveAttribute("src", /birthday-indonesia\.mp3$/);
+  await expect.poll(() => page.locator("audio").evaluate((audio) => (audio as HTMLAudioElement).duration)).toBeGreaterThan(200);
 
   const firstTrack = await page.locator(".audio-dock strong").textContent();
-  await page.evaluate(() => (window as typeof window & { __soundtrackPlayer: { options: { events: { onStateChange: (event: { data: number }) => void } } } }).__soundtrackPlayer.options.events.onStateChange({ data: 0 }));
+  await page.locator("audio").dispatchEvent("ended");
   await expect.poll(() => page.locator(".audio-dock strong").textContent()).not.toBe(firstTrack);
+  await expect(page.locator("audio")).not.toHaveAttribute("src", /birthday-indonesia\.mp3$/);
 
   const navSound = page.getByRole("button", { name: "Pause shuffled soundtrack" });
   await navSound.click();
