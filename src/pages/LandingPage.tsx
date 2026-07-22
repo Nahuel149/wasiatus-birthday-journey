@@ -19,7 +19,7 @@ export function LandingPage() {
       <div className="landing__frame" aria-hidden="true" />
       <motion.div className="landing__monogram" {...reveal(0.1)}>
         <Heart size={14} fill="currentColor" />
-        <span>W + N</span>
+        <span>NaWaRay</span>
       </motion.div>
 
       <div className="landing__content">

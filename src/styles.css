@@ -230,7 +230,7 @@ h1, h2, h3 { text-wrap: balance; }
 .landing__frame::before, .landing__frame::after { content: ""; position: absolute; width: 86px; height: 86px; }
 .landing__frame::before { left: -1px; top: -1px; border-left: 3px double var(--gold-light); border-top: 3px double var(--gold-light); }
 .landing__frame::after { right: -1px; bottom: -1px; border-right: 3px double var(--gold-light); border-bottom: 3px double var(--gold-light); }
-.landing__monogram { position: absolute; top: 52px; left: 50%; display: flex; align-items: center; gap: 8px; transform: translateX(-50%); color: var(--rose); font-size: .64rem; font-weight: 700; letter-spacing: .2em; }
+.landing__monogram { position: absolute; top: 52px; left: 50%; display: flex; align-items: center; gap: 8px; transform: translateX(-50%); color: var(--rose); font-size: .64rem; font-weight: 700; letter-spacing: .16em; }
 .landing__content { position: relative; z-index: 2; max-width: 920px; text-align: center; }
 .landing__content .eyebrow { margin-bottom: 24px; }
 .landing h1 { margin: 0; color: var(--wine); font-family: var(--serif); font-size: clamp(4rem, 10.3vw, 9.2rem); font-weight: 400; letter-spacing: -.065em; line-height: .73; }
