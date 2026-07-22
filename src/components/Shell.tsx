@@ -87,9 +87,9 @@ export function Shell({ children }: { children: ReactNode }) {
                 id="mobile-navigation"
                 className="mobile-nav"
                 aria-label="Mobile navigation"
-                initial={{ opacity: 0, y: -12 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -12 }}
+                initial={{ y: -12 }}
+                animate={{ y: 0 }}
+                exit={{ y: -12 }}
               >
                 {links.map(([to, label]) => (
                   <NavLink key={to} to={to}>

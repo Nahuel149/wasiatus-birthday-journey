@@ -83,7 +83,7 @@ The first working MVP is now included. It currently provides:
 - Vitest unit/component coverage and Playwright desktop/mobile journey tests
 - Automated WCAG A/AA scans, 300-record gallery stress mode, and production bundle budgets
 
-The approved release now includes 74 curated family photographs: 33 core-story images and 41 supporting gallery moments. Camera originals stay outside `public/`; the published AVIF/WebP derivatives are metadata-stripped by the local media pipeline.
+The approved release now includes 73 unique curated family photographs: 33 core-story images and 40 supporting gallery moments. Camera originals stay outside `public/`; the published AVIF/WebP derivatives are metadata-stripped by the local media pipeline.
 
 ## Run locally
 

@@ -50,7 +50,7 @@ test("approved chapter and gallery photographs load successfully", async ({ page
   await expect(page.locator(".chapter .memory-visual--photo")).toHaveCount(23);
 
   await page.goto("/#/gallery");
-  await expect(page.getByText("74 memories")).toBeVisible();
+  await expect(page.getByText("73 memories")).toBeVisible();
   await expect(page.locator(".gallery-card")).toHaveCount(60);
   const visibleImage = page.locator(".gallery-card img").first();
   await expect.poll(async () => visibleImage.evaluate((image) => (
@@ -111,6 +111,9 @@ test("the default soundtrack starts after interaction, shuffles, and stays contr
   await expect(page.locator(".audio-dock strong")).toHaveText("Selamat Ulang Tahun");
   await expect(page.locator("audio")).toHaveAttribute("src", /birthday-indonesia\.mp3$/);
   await expect.poll(() => page.locator("audio").evaluate((audio) => (audio as HTMLAudioElement).duration)).toBeGreaterThan(200);
+
+  await page.getByRole("button", { name: "Play next song" }).click();
+  await expect(page.locator("audio")).not.toHaveAttribute("src", /birthday-indonesia\.mp3$/);
 
   const firstTrack = await page.locator(".audio-dock strong").textContent();
   await page.locator("audio").dispatchEvent("ended");

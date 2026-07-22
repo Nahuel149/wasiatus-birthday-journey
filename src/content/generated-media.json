@@ -992,22 +992,6 @@
     }
   },
   {
-    "id": "our-beginnings-p0903-image",
-    "memoryId": "our-beginnings-p0903",
-    "kind": "image",
-    "alt": "Wasiatus and Nahuel in a family photograph from 2022-09-21",
-    "width": 1108,
-    "height": 1108,
-    "sources": {
-      "thumbnailAvif": "media/images/our-beginnings-p0903-480.avif",
-      "thumbnailWebp": "media/images/our-beginnings-p0903-480.webp",
-      "mediumAvif": "media/images/our-beginnings-p0903-960.avif",
-      "mediumWebp": "media/images/our-beginnings-p0903-960.webp",
-      "largeAvif": "media/images/our-beginnings-p0903-1920.avif",
-      "largeWebp": "media/images/our-beginnings-p0903-1920.webp"
-    }
-  },
-  {
     "id": "our-beginnings-p2907-image",
     "memoryId": "our-beginnings-p2907",
     "kind": "image",

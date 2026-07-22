@@ -62,6 +62,18 @@ describe("AudioProvider", () => {
     expect(HTMLMediaElement.prototype.play).toHaveBeenCalledOnce();
   });
 
+  it("lets the listener skip directly to the next shuffled song", async () => {
+    const { result } = renderHook(() => useAudio(), { wrapper: AudioProvider });
+
+    fireEvent.click(document.body);
+    await waitFor(() => expect(result.current.currentTrack?.id).toBe("song-birthday-indonesia"));
+
+    await act(async () => { await result.current.next(); });
+
+    expect(result.current.currentTrack?.id).not.toBe("song-birthday-indonesia");
+    expect(HTMLMediaElement.prototype.play).toHaveBeenCalledTimes(2);
+  });
+
   it("clamps and persists volume", () => {
     const { result } = renderHook(() => useAudio(), { wrapper: AudioProvider });
 

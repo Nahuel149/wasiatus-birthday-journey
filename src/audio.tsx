@@ -1,4 +1,4 @@
-import { Pause, Play, Volume2, X } from "lucide-react";
+import { Pause, Play, SkipForward, Volume2, X } from "lucide-react";
 import { createContext, type ReactNode, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { resolveAssetPath, songs } from "./data";
 import type { SongStory } from "./types";
@@ -9,6 +9,7 @@ interface AudioContextValue {
   playing: boolean;
   volume: number;
   playTrack: (track: SongStory) => Promise<boolean>;
+  next: () => Promise<boolean>;
   toggle: () => Promise<void>;
   stop: () => void;
   setVolume: (volume: number) => void;
@@ -139,6 +140,8 @@ export function AudioProvider({ children }: { children: ReactNode }) {
     }
   }, [setEnabled, setPlaying]);
 
+  const next = useCallback(() => playRandomRef.current(), []);
+
   const stop = useCallback(() => {
     setEnabled(false);
     if (audioRef.current) {
@@ -176,7 +179,7 @@ export function AudioProvider({ children }: { children: ReactNode }) {
     };
   }, [setPlaying]);
 
-  const value = useMemo(() => ({ currentTrack, enabled, playing, volume, playTrack, toggle, stop, setVolume }), [currentTrack, enabled, playTrack, playing, setVolume, stop, toggle, volume]);
+  const value = useMemo(() => ({ currentTrack, enabled, playing, volume, playTrack, next, toggle, stop, setVolume }), [currentTrack, enabled, next, playTrack, playing, setVolume, stop, toggle, volume]);
 
   return (
     <AudioContext.Provider value={value}>
@@ -206,7 +209,7 @@ export function useAudio() {
 }
 
 export function GlobalAudioDock() {
-  const { currentTrack, enabled, playing, volume, toggle, stop, setVolume } = useAudio();
+  const { currentTrack, enabled, playing, volume, next, toggle, stop, setVolume } = useAudio();
   if (!currentTrack) return null;
   return (
     <aside className="audio-dock" aria-label="Now playing">
@@ -214,6 +217,7 @@ export function GlobalAudioDock() {
         {playing ? <Pause size={17} fill="currentColor" /> : <Play size={17} fill="currentColor" />}
       </button>
       <div><small>{enabled ? "Shuffle soundtrack" : "Soundtrack paused"}</small><strong>{currentTrack.title}</strong><span>{currentTrack.artist}</span></div>
+      <button data-audio-control className="audio-dock__next" onClick={() => void next()} aria-label="Play next song" title="Next song"><SkipForward size={18} fill="currentColor" /></button>
       <label><Volume2 size={15} /><span className="sr-only">Volume</span><input type="range" min="0" max="1" step="0.05" value={volume} onChange={(event) => setVolume(Number(event.target.value))} /></label>
       <button data-audio-control className="audio-dock__close" onClick={stop} aria-label="Stop music"><X size={17} /></button>
     </aside>
