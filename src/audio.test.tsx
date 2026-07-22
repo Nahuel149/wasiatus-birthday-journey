@@ -20,21 +20,22 @@ describe("AudioProvider", () => {
     vi.spyOn(HTMLMediaElement.prototype, "pause").mockImplementation(() => undefined);
   });
 
-  it("enables the shuffled soundtrack by default", () => {
+  it("enables the soundtrack and attempts the birthday opener immediately", async () => {
     const { result } = renderHook(() => useAudio(), { wrapper: AudioProvider });
 
     expect(result.current.enabled).toBe(true);
-    expect(result.current.currentTrack).toBeNull();
+    await waitFor(() => expect(result.current.currentTrack?.id).toBe("song-birthday-indonesia"));
+    expect(HTMLMediaElement.prototype.play).toHaveBeenCalledOnce();
   });
 
-  it("opens with the Indonesian birthday song after the visitor's first interaction", async () => {
+  it("retries blocked autoplay on the visitor's first interaction", async () => {
+    vi.mocked(HTMLMediaElement.prototype.play).mockRejectedValueOnce(new DOMException("Autoplay blocked", "NotAllowedError"));
     const { result } = renderHook(() => useAudio(), { wrapper: AudioProvider });
 
+    await waitFor(() => expect(result.current.currentTrack?.id).toBe("song-birthday-indonesia"));
     fireEvent.click(document.body);
 
-    await waitFor(() => expect(result.current.currentTrack).not.toBeNull());
-    expect(result.current.currentTrack?.id).toBe("song-birthday-indonesia");
-    expect(result.current.currentTrack?.opening).toBe(true);
+    await waitFor(() => expect(HTMLMediaElement.prototype.play).toHaveBeenCalledTimes(2));
   });
 
   it("rejects a story without a playable source", async () => {
@@ -46,7 +47,7 @@ describe("AudioProvider", () => {
     });
 
     expect(started).toBe(false);
-    expect(result.current.currentTrack).toBeNull();
+    expect(result.current.currentTrack?.id).toBe("song-birthday-indonesia");
   });
 
   it("plays a local track and reflects media events", async () => {
@@ -59,13 +60,12 @@ describe("AudioProvider", () => {
     expect(started).toBe(true);
     expect(result.current.currentTrack?.id).toBe(playableTrack.id);
     expect(result.current.playing).toBe(true);
-    expect(HTMLMediaElement.prototype.play).toHaveBeenCalledOnce();
+    expect(HTMLMediaElement.prototype.play).toHaveBeenCalledTimes(2);
   });
 
   it("lets the listener skip directly to the next shuffled song", async () => {
     const { result } = renderHook(() => useAudio(), { wrapper: AudioProvider });
 
-    fireEvent.click(document.body);
     await waitFor(() => expect(result.current.currentTrack?.id).toBe("song-birthday-indonesia"));
 
     await act(async () => { await result.current.next(); });

@@ -86,7 +86,7 @@ test("printable letter choices produce a clean print view", async ({ page }) => 
   await expect(page.locator(".letter-paper")).toBeVisible();
 });
 
-test("the default soundtrack starts after interaction, shuffles, and stays controllable", async ({ page }) => {
+test("the default soundtrack autoplays when permitted, shuffles, and stays controllable", async ({ page }) => {
   await page.addInitScript(() => {
     HTMLMediaElement.prototype.play = function play() {
       this.dispatchEvent(new Event("play"));
@@ -102,11 +102,10 @@ test("the default soundtrack starts after interaction, shuffles, and stays contr
   expect(birthdayFile.ok()).toBe(true);
   expect(birthdayFile.headers()["content-type"]).toContain("audio/mpeg");
 
-  const songButtons = page.locator(".song-list").getByRole("button", { name: /^Play /i });
+  const songButtons = page.locator(".song-list").getByRole("button", { name: /^(Play|Pause) /i });
   await expect(songButtons).toHaveCount(8);
   await expect(page.getByLabel("A small love note")).toBeVisible();
 
-  await page.locator(".music-page h1").click();
   await expect(page.getByRole("button", { name: "Pause music" })).toBeVisible();
   await expect(page.locator(".audio-dock strong")).toHaveText("Selamat Ulang Tahun");
   await expect(page.locator("audio")).toHaveAttribute("src", /birthday-indonesia\.mp3$/);

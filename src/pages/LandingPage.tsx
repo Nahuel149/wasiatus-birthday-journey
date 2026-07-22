@@ -1,4 +1,4 @@
-import { ArrowDown, Heart, VolumeX } from "lucide-react";
+import { ArrowDown, Heart } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { AmbientEffects } from "../components/AmbientEffects";
@@ -38,7 +38,11 @@ export function LandingPage() {
         <motion.p className="landing__subtitle" {...reveal(0.54)}>
           This is the story of us.
         </motion.p>
-        <motion.div {...reveal(0.68)}>
+        <motion.div
+          initial={reducedMotion ? {} : { y: 24 }}
+          animate={{ y: 0 }}
+          transition={{ duration: 0.9, delay: 0.68, ease }}
+        >
           <Link to="/journey" className="primary-cta">
             <span>Begin our journey</span>
             <ArrowDown size={18} />
@@ -46,10 +50,6 @@ export function LandingPage() {
         </motion.div>
       </div>
 
-      <motion.div className="landing__note" {...reveal(0.82)}>
-        <VolumeX size={15} />
-        <span>Her birthday song begins after your first tap</span>
-      </motion.div>
       <motion.p className="landing__signature" {...reveal(0.9)}>
         From Nahuel, with all my love.
       </motion.p>

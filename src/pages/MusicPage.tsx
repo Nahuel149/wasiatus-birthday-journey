@@ -61,7 +61,7 @@ export function MusicPage() {
         })}
       </div>
 
-      <aside className="music-note"><Music2 size={20} /><p><strong>The birthday song always comes first:</strong> your browser lets it begin after the first click or tap. Afterward, the remaining songs play directly from this website in a fresh random order without immediate repeats.</p></aside>
+      <aside className="music-note"><Music2 size={20} /><p><strong>The birthday song always comes first:</strong> the site asks your browser to start it automatically. If first-visit audio is blocked, your first tap unlocks it. Use the music controls to pause, resume, or skip while the remaining songs shuffle without immediate repeats.</p></aside>
     </div>
   );
 }

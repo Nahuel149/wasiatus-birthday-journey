@@ -16,7 +16,6 @@ interface AudioContextValue {
 }
 
 const VOLUME_KEY = "birthdayJourney:v1:volume";
-const ENABLED_KEY = "birthdayJourney:v1:soundtrack-enabled";
 const AudioContext = createContext<AudioContextValue | null>(null);
 const openingSong = songs.find((song) => song.opening && song.audioPath);
 const shuffledSongs = songs.filter((song) => song.audioPath && !song.opening && song.shuffle !== false);
@@ -24,10 +23,6 @@ const shuffledSongs = songs.filter((song) => song.audioPath && !song.opening && 
 function initialVolume() {
   const stored = Number(localStorage.getItem(VOLUME_KEY));
   return Number.isFinite(stored) && stored >= 0 && stored <= 1 ? stored : .65;
-}
-
-function initialEnabled() {
-  return localStorage.getItem(ENABLED_KEY) !== "false";
 }
 
 export function isPlayableTrack(track: SongStory) {
@@ -46,10 +41,11 @@ function shuffle<T>(items: T[]) {
 export function AudioProvider({ children }: { children: ReactNode }) {
   const audioRef = useRef<HTMLAudioElement>(null);
   const currentTrackRef = useRef<SongStory | null>(null);
-  const enabledRef = useRef(initialEnabled());
+  const enabledRef = useRef(true);
   const playingRef = useRef(false);
   const volumeRef = useRef(initialVolume());
   const openingPlayedRef = useRef(false);
+  const autoplayAttemptedRef = useRef(false);
   const queueRef = useRef<SongStory[]>([]);
   const playRandomRef = useRef<() => Promise<boolean>>(async () => false);
   const playOpeningRef = useRef<() => Promise<boolean>>(async () => false);
@@ -71,7 +67,6 @@ export function AudioProvider({ children }: { children: ReactNode }) {
 
   const setEnabled = useCallback((nextEnabled: boolean) => {
     enabledRef.current = nextEnabled;
-    localStorage.setItem(ENABLED_KEY, String(nextEnabled));
     setEnabledState(nextEnabled);
   }, []);
 
@@ -118,6 +113,12 @@ export function AudioProvider({ children }: { children: ReactNode }) {
 
   playRandomRef.current = playRandom;
   playOpeningRef.current = playOpening;
+
+  useEffect(() => {
+    if (autoplayAttemptedRef.current || !enabledRef.current) return;
+    autoplayAttemptedRef.current = true;
+    void playOpeningRef.current();
+  }, []);
 
   const toggle = useCallback(async () => {
     const audio = audioRef.current;
@@ -186,6 +187,7 @@ export function AudioProvider({ children }: { children: ReactNode }) {
       {children}
       <audio
         ref={audioRef}
+        autoPlay
         preload="none"
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}
