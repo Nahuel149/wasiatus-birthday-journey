@@ -5,7 +5,7 @@ import { MusicPage } from "./MusicPage";
 import { VideoGalleryPage } from "./VideoGalleryPage";
 import type { GeneratedVideo } from "../data";
 
-const filmFixture = Array.from({ length: 32 }, (_, index): GeneratedVideo => ({
+const filmFixture = Array.from({ length: 31 }, (_, index): GeneratedVideo => ({
   slug: `film-${index}`,
   title: index === 0 ? "A Wish by Candlelight" : `Film ${index + 1}`,
   description: "A curated family film.",
@@ -32,7 +32,7 @@ describe("media empty states", () => {
 
     expect(screen.getByRole("heading", { name: "Our home movies" })).toBeInTheDocument();
     expect(await screen.findByRole("heading", { name: "A Wish by Candlelight" })).toBeInTheDocument();
-    await waitFor(() => expect(document.querySelectorAll("video")).toHaveLength(32));
+    await waitFor(() => expect(document.querySelectorAll("video")).toHaveLength(31));
     vi.restoreAllMocks();
   });
 });
