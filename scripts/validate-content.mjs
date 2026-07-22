@@ -9,7 +9,7 @@ const [chapters, memories, reasons, media, places, videos, songs] = await Promis
   readJson("reasons.json"),
   readJson("generated-media.json"),
   readJson("places.json"),
-  readJson("generated-videos.json"),
+  JSON.parse(await readFile(path.join(root, "public", "media", "video-manifest.json"), "utf8")),
   readJson("songs.json"),
 ]);
 
@@ -26,7 +26,7 @@ for (const [label, values] of [
   ["reason numbers", reasons.map((item) => item.number)],
   ["media IDs", media.map((item) => item.id)],
   ["place IDs", places.map((item) => item.id)],
-  ["video IDs", videos.map((item) => `${item.memoryId}-video`)],
+  ["video IDs", videos.map((item) => `${item.slug}-video`)],
   ["song IDs", songs.map((item) => item.id)],
 ]) {
   const duplicates = duplicateValues(values);
@@ -58,10 +58,11 @@ for (const item of media) {
 }
 
 for (const video of videos) {
-  const videoId = `${video.memoryId}-video`;
-  if (!memoryIds.has(video.memoryId)) errors.push(`Video ${videoId} references missing memory ${video.memoryId}`);
+  const videoId = `${video.slug}-video`;
+  if (!video.slug) errors.push("Video lacks a slug");
+  if (video.memoryId && !memoryIds.has(video.memoryId)) errors.push(`Video ${videoId} references missing memory ${video.memoryId}`);
   if (!video.title || !video.description) errors.push(`Video ${videoId} lacks required copy`);
-  const sources = [`media/videos/${video.memoryId}.mp4`, `media/posters/${video.memoryId}-poster.webp`, video.captions].filter(Boolean);
+  const sources = [`media/videos/${video.slug}.mp4`, `media/posters/${video.slug}-poster.webp`, video.captions].filter(Boolean);
   for (const source of sources) {
     try { await access(path.join(root, "public", source)); }
     catch { errors.push(`Video ${videoId} references missing file ${source}`); }

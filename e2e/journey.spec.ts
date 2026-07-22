@@ -61,17 +61,32 @@ test("approved chapter and gallery photographs load successfully", async ({ page
 test("curated films and their posters are published", async ({ page }) => {
   await page.goto("/#/films");
 
-  await expect(page.locator(".video-grid article")).toHaveCount(8);
+  await expect(page.locator(".video-grid article")).toHaveCount(32);
   await expect(page.getByRole("heading", { name: "When Everything Still Felt New" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "A Wish by Candlelight" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Winter Train, Warm Company" })).toBeVisible();
 
-  const film = await page.request.get("/media/videos/our-beginnings-p0009.mp4");
+  const catalog = await page.request.get("/media/video-manifest.json");
+  expect(catalog.ok()).toBe(true);
+  const catalogRecords = await catalog.json();
+  expect(catalogRecords).toHaveLength(32);
+  expect(catalogRecords.some((record: { slug: string }) => record.slug === "winter-train-20231223")).toBe(true);
+
+  const film = await page.request.head("/media/videos/winter-train-20231223.mp4");
   expect(film.ok()).toBe(true);
   expect(film.headers()["content-type"]).toContain("video/mp4");
 
-  const poster = await page.request.get("/media/posters/our-beginnings-p0009-poster.webp");
+  const poster = await page.request.head("/media/posters/winter-train-20231223-poster.webp");
   expect(poster.ok()).toBe(true);
   expect(poster.headers()["content-type"]).toContain("image/webp");
+
+  const player = page.getByLabel("Winter Train, Warm Company");
+  await player.scrollIntoViewIfNeeded();
+  await player.evaluate(async (video) => {
+    (video as HTMLVideoElement).muted = true;
+    await (video as HTMLVideoElement).play();
+  });
+  await expect.poll(() => player.evaluate((video) => (video as HTMLVideoElement).currentTime)).toBeGreaterThan(.2);
 });
 
 test("300-record gallery renders in bounded batches", async ({ page }) => {

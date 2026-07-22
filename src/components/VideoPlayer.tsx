@@ -25,7 +25,7 @@ export function VideoPlayer({ video, cinematic = false, onPlay }: VideoPlayerPro
       <video
         controls
         playsInline
-        preload="metadata"
+        preload="none"
         poster={resolveAssetPath(video.posterWebp)}
         width={video.width}
         height={video.height}

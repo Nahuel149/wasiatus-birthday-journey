@@ -53,7 +53,7 @@ export interface ImageMediaItem {
 
 export interface VideoItem {
   id: string;
-  memoryId: string;
+  memoryId?: string;
   kind: "video";
   title: string;
   description: string;
